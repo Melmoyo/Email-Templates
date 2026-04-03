@@ -1,0 +1,73 @@
+<mjml>
+<mj-head>
+
+<mj-attributes>
+<mj-all font-family="Arial, sans-serif"/>
+<mj-text font-size="16px" color="#1a1a1a" line-height="1.6"/>
+</mj-attributes>
+
+<mj-style>
+.button:hover {background-color:#d4941f !important;}
+</mj-style> mjml welcome-email.mjml -o welcome-email.html
+</mj-head>
+
+<mj-body background-color="#f8f9fa">
+<!--HEADER-->
+<mj-section background-color="#1e3a5f" padding="30px">
+<mj-column>
+<mj-text align="center" font-size="28px" font-weight="bold" color="#ffffff">Welcome to FixIt!</mj-text>
+</mj-column>
+</mj-section>
+
+<!--HERO-->
+<mj-section padding="0px">
+<mj-column >
+<mj-text align="center" font-size="28px" font-weight="bold" color="#555555">You're now connected to trusted local service providers in your city.Find plumbers, electricians, cleaners and more- all vetted and reviewed.</mj-text>
+<mj-button background-color="#f4a823" color="#ffffff" font-size="16px" font-weight="bold" border-radius="6px" href="#"css-class="button">
+Find a Service Provider
+</mj-button>
+</mj-column>
+</mj-section>
+
+<!--3 STEPS-->
+<mj-section background-color="#F8F9FA" padding="30px">
+<mj-column>
+<mj-text align="center" font-weight="bold" font-size="20px" color="#1e3a5f">How It Works</mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section background-color="#f8f9fa" padding="0 30px 30px">
+<mj-column>
+<mj-text align="center" color="#1e3a5f" font-size="32px" font-weight="bold">01</mj-text>
+<mj-text align="center" font-weight="bold">Search Your Service</mj-text>
+<mj-text align="center" color="#555555" font-size="14px">Browse by category or serach directly for what you need.</mj-text>
+</mj-column>
+
+
+<mj-column>
+<mj-text align="center" color="#1e3a5f" font-size="32px" font-weight="bold">02</mj-text>
+<mj-text align="center" font-weight="bold">Compare Providers</mj-text>
+<mj-text align="center" color="#555555" font-size="14px">Read reviews and compare providers before you decide.</mj-text>
+
+</mj-column>
+
+<mj-column >
+<mj-text align="center" color="#1e3a5f" font-size="32px" font-weight="bold">03</mj-text>
+<mj-text align="center" font-weight="bold">Contact Directly</mj-text>
+<mj-text align="center" color="#555555" font-size="14px" vertical-align="bottom" >Reach out and get the job done with confidence.</mj-text>
+
+</mj-column>
+</mj-section>
+
+<!--FOOTER-->
+<mj-section background-color="#1e3a5f" padding="20px 30px">
+<mj-column>
+<mj-text align="center" color="#ffffff" font-size="13px">&copy; 2025 FixIt. All rights reserved.</mj-text>
+<mj-text align="center" font-size="12px"><a href="#" style="color:#f4a823;">Unsubscribe</a> &nbsp; &nbsp;
+<a href="#" style="color:#f4a823;">Privacy Policy</a></mj-text>
+</mj-column>
+</mj-section>
+
+</mj-body>
+    
+</mjml>
