@@ -1,0 +1,190 @@
+<mjml>
+<mj-head>
+
+</mj-head>
+<mj-body>
+<!--HEADER-->
+<mj-section background-color="#1e3a5f">
+<mj-column>
+<mj-text font-size="28px"><span style="color:#ffffff">Fix</span><span style=" color:#f4a823">It</span></mj-text>
+</mj-column>
+<mj-column >
+<mj-text color="#6b7280">Trusted Local Services</mj-text>
+</mj-column>
+
+</mj-section>
+
+<mj-section background-color="#1e3a5f">
+
+<mj-column >
+<mj-text ><span style="display:inline-block; background-color:rgba(244, 168, 35, 0.15); border:1px solid rgba(244,168,35,0.3); color:#f4a823; font-size:11px; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; padding:6px 14px; border-radius:20px;"> Welcome to the  community</span></mj-text>
+
+
+
+<mj-text font-size="28px"  font-weight="bold"><div style="color:#ffffff">Find trusted help,</div><div style="color:#f4a823"> right in your city.</div></mj-text>
+
+
+<mj-text align="left" color="#6b7280" font-size="20px">Your account is ready.Browse vetted plumbers, electricians, cleaners,tutors and more - all reviewed by real people in your area.</mj-text>
+<mj-button align="left" background-color="#f4a823" color="#1e3a5f" font-weight="bold">Browse Services</mj-button>
+<mj-text color="#ffffff">Learn how it works</mj-text>
+<mj-spacer />
+<mj-text padding="0px" height="40px" color="#1e3a5f" align="center"  font-weight="semi-bold" font-size="14px"><div style="background-color:#f4a823; padding:10px; height:40px; overflow-x:hidden">Hi user- here's how to get the most out of FixIt</div></mj-text>
+    </mj-column>
+</mj-section>
+<mj-section background-color="#ffffff">
+  <mj-column width="100%">
+    <mj-text>
+      <span style="color: #f4a823; text-transform:uppercase;">
+        Getting Started
+      </span>
+    </mj-text>
+
+    <mj-text font-size="20px" color="#1e3a5f">
+      Three steps to finding great help
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#ffffff" >
+<mj-column width="33%" vertical-align="middle">
+<mj-text align="center" >
+      <span style="
+        display:inline-block;
+        background-color:#1e3a5f;
+        height:30px;
+        width:30px;
+        line-height:30px;
+        border-radius:50%;
+        color:#ffffff;
+        text-align:center;
+        font-size:14px;
+      ">
+        01
+      </span>
+    </mj-text>
+  </mj-column>
+
+  <!-- Text content -->
+  <mj-column width="67%" vertical-align="middle" >
+    <mj-text  align="left" >
+      <strong>Search your service</strong>
+    </mj-text>
+    <mj-text align="left" >
+      Browse by category or search directly. Filter by location, rating and availability to find exactly what you need.
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#ffffff">
+  
+  <!-- Number circle -->
+  <mj-column width="33%" vertical-align="middle">
+    <mj-text align="center">
+      <span style="
+        display:inline-block;
+        background-color:#f4a823;
+        height:30px;
+        width:30px;
+        line-height:30px;
+        border-radius:50%;
+        color:#ffffff;
+        text-align:center;
+        font-size:14px;
+      ">
+        02
+      </span>
+    </mj-text>
+  </mj-column>
+
+  <!-- Text content -->
+  <mj-column width="67%" vertical-align="middle">
+    <mj-text>
+      <strong>Compare profiles and reviews</strong>
+    </mj-text>
+    <mj-text>
+      Read verified reviews from real customers.See ratings, pricing, and experience before you reach out.
+    </mj-text>
+  </mj-column>
+  
+
+</mj-section>
+
+<mj-section background-color="#ffffff">
+<mj-column width="33%" vertical-align="middle">
+<mj-text align="center">
+      <span style="
+        display:inline-block;
+        background-color:#1e3a5f;
+        height:30px;
+        width:30px;
+        line-height:30px;
+        border-radius:50%;
+        color:#ffffff;
+        text-align:center;
+        font-size:14px;
+      ">
+        03
+      </span>
+    </mj-text>
+  </mj-column>
+
+  <!-- Text content -->
+  <mj-column width="67%" vertical-align="middle">
+    <mj-text>
+      <strong>Contact directly, no middleman</strong>
+    </mj-text>
+    <mj-text>
+      Message or call service providers directly. No commission fees, no platform markups.Just honest local work.
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#6b7280">
+<mj-column>
+<mj-text><span style="color:#f4a823; text-transform:uppercase">Browse by category</mj-text>
+<mj-text>What do you need help with?</mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section background-color="#6b7280" padding="5px">
+
+<mj-column  width="33.33%" padding="5px" >
+<mj-text container-background-color="#ffffff" padding="15px" height="15px"><span style='font-size:30px;'>&#128295;</span></mj-text>
+<mj-text container-background-color="#ffffff" padding="15px" height="15px">Plumbing</mj-text>
+<mj-text container-background-color="#ffffff" padding="0 15px 15px 15px">48 providers</mj-text>
+</mj-column>
+
+<mj-column  width="33.33%" padding="5px" >
+<mj-text container-background-color="#ffffff" padding="15px" height="15px">Electrical</mj-text>
+<mj-text  container-background-color="#ffffff" padding="0 15px 15px 15px">48 providers</mj-text>
+</mj-column>
+
+<mj-column  width="33.33%" padding="5px"  border-radius="20%">
+<mj-text container-background-color="#ffffff" padding="15px" height="15px">Cleaning</mj-text>
+<mj-text container-background-color="#ffffff" padding="0 15px 15px 15px" >48 providers</mj-text>
+</mj-column>
+</mj-section>
+
+
+<mj-section background-color="#6b7280">
+
+<mj-column width="33.33%" padding="5px"  border-radius="30px">
+<mj-text container-background-color="#ffffff" padding="15px" height="15px">Tutoring</mj-text>
+<mj-text container-background-color="#ffffff" padding="0 15px 15px 15px">48 providers</mj-text>
+</mj-column>
+
+<mj-column  width="33.33%" padding="5px"  border-radius="20%">
+<mj-text container-background-color="#ffffff" padding="15px" height="15px">Gardening</mj-text>
+<mj-text container-background-color="#ffffff" padding="0 15px 15px 15px">48 providers</mj-text>
+</mj-column>
+
+<mj-column width="33.33%" padding="5px"  border-radius="20%">
+<mj-text container-background-color="#ffffff" padding="15px" height="15px">Painting</mj-text>
+<mj-text container-background-color="#ffffff" padding="0 15px 15px 15px">48 providers</mj-text>
+</mj-column>
+</mj-section>
+
+
+
+</mj-body>
+</mjml>
