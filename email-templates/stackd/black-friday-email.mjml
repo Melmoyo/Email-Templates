@@ -1,0 +1,336 @@
+<mjml>
+<mj-head>
+<mj-font name="Bebas Neue"  href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"/>
+<mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"/>
+
+
+</mj-head>
+<mj-body>
+<!--HEADER-->
+<mj-section background-color="#000000" padding="60px 40px 20px 40px">
+<mj-column  >
+<mj-text color="#ffffff" font-weight="700" font-size="28px" font-family="Bebas Neue">Stackd</mj-text>
+
+</mj-column>
+<mj-column >
+<mj-text color="#444444">BLACK FRIDAY 2026</mj-text>
+</mj-column>
+</mj-section>
+<mj-section>
+<!--DIVIDER-->
+<mj-column width="100%">
+<mj-divider border-color="#444444" border-width="1px" border-style="solid"></mj-divider>
+</mj-column>
+</mj-section>
+
+<mj-section>
+<mj-column background-color="#FFE500" width="40%">
+<mj-text align="center" font-weight="600"><span style="text-transform:uppercase;">Black friday is here</span></mj-text>
+
+</mj-column>
+</mj-section>
+<!--BLACK FRIDAY TITLE-->
+<mj-section>
+<mj-column>
+<mj-text align="center" font-family="Bebas Neue" font-size="80px" font-weight="900">
+<span style="color:#ffffff">BLACK</span> <br>
+<span style="color:#FFE500;">FRIDAY</span>
+</mj-text>
+</mj-column>
+</mj-section>
+
+
+<mj-section>
+<mj-column>
+<mj-text color="#444444" font-size="20px" font-family="Inter" line-height="1.5">
+<span style="text-transform:uppercase">Deals end midnight Friday — don't sleep on this</span>
+</mj-text>
+</mj-column>
+</mj-section>
+
+<!--COUNTDOWN-->
+<mj-section full-width="full-width">
+<mj-column border="1px solid #444444" width="16%">
+<mj-text color="#444444" align="center">
+<span style="font-size:36px;color:#FFE500">02</span><br>DAYS</mj-text>
+</mj-column>
+<mj-column vertical-align="middle"  width="10%" padding="0 3px 0 0">
+<mj-text color="#444444" font-size="50px" align="center">:</mj-text>
+</mj-column>
+<mj-column border="1px solid #444444"  width="16%">
+<mj-text color="#444444" align="center">
+<span style="font-size:36px;color:#FFE500">14</span><br>HOURS</mj-text>
+</mj-column>
+<mj-column vertical-align="middle"  width="10%">
+<mj-text color="#444444" font-size="50px" align="center">:</mj-text>
+</mj-column>
+<mj-column border="1px solid #444444"  width="16%">
+<mj-text color="#444444" align="center">
+<span style="font-size:36px;color:#FFE500">36</span><br>MINS</mj-text>
+</mj-column>
+<mj-column vertical-align="middle"  width="10%">
+<mj-text color="#444444" font-size="50px" align="center">:</mj-text>
+</mj-column>
+<mj-column border="1px solid #444444"  width="16%">
+<mj-text color="#444444" align="center">
+<span style="font-size:36px;color:#FFE500">09</span><br>SECS</mj-text>
+</mj-column>
+</mj-section>
+
+<!-- SHOP BUTTON-->
+<mj-section>
+<mj-column >
+<mj-button padding="0" background-color="#FFE500" color="#000000" font-size="22px" font-weight="600">
+SHOP ALL DEALS &#8594;
+</mj-button>
+<mj-text color="#444444" align="center" font-size="16px">FREE SHIPPING ON ORDERS OVER 500</mj-text>
+</mj-column>
+</mj-section>
+
+<!--FEATURED-->
+<mj-section padding="0" full-width="full-width" background-color="#FFE500">
+
+<!--COLUMN 1-->
+<mj-column  width="32.66%"  padding="8px 5px 8px 5px">
+<mj-text font-size="16px" align="center" >
+<span style="font-weight:600">UP TO 60% </span><br>OFF EVERYTHING</mj-text>
+</mj-column>
+
+<!--DIVIDER-->
+<mj-column   width="1px"   padding="0px" >
+<mj-divider  border-style="solid" border-color="#000000" border-width="50px" padding="10px 0 10px 0"></mj-divider>
+</mj-column>
+
+<!--COLUMN 2-->
+<mj-column  width="32.66%"  padding="8px 5px 0px 5px">
+<mj-text font-size="15px" align="center" >
+<span style="font-weight:600">FREE SHIPPING </span><br>OVER 500 </mj-text>
+</mj-column>
+
+<!--DIVIDER-->
+<mj-column width="1px">
+<mj-divider border-style="solid" border-color="#000000" border-width="50px" padding="10px 0 10px 0"></mj-divider>
+</mj-column>
+<!--COLUMN 3-->
+<mj-column  width="32.66%"  padding="8px 5px 8px 5px">
+<mj-text font-size="15px" align="center">
+<span style="font-weight:600">24 HOURS </span><br>ONLY - ENDS MIDNIGHT  </mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section>
+<mj-column width="75%">
+<mj-text color="#FFFFFF" font-weight="700" font-size="28px" font-family="Inter">TOP DEALS</mj-text>
+
+</mj-column>
+<mj-column width="25%">
+<mj-text color="#FFE500">VIEW ALL <span>&#8594;</mj-text>
+</mj-column>
+</mj-section>
+
+<!--TOP DEALS-->
+<!-- Row 1 — first two products -->
+<mj-section background-color="#000000"
+  padding="0 40px 12px 40px">
+
+ <!-- Product 1 — featured -->
+  <mj-column padding="0 6px 0 0" 
+    background-color="#0D0D0D"
+    border="1px solid #FFE500" width="49%">
+   
+    <!--RIGHT SIDE (TAG)-->
+<mj-text font-size="14px" align="right" padding="15px">
+<span style="background:#FFE500; color:#000000; padding:4px; font-weight:600">60% OFF</mj-text>
+    <!--LEFT SIDE-->
+    
+    <mj-text font-size="32px">&#127911;</span></mj-text>
+    <mj-text color="#444444" text-transform="uppercase">Audio</mj-text>
+    <mj-text color="#ffffff" font-size="16px" font-weight="600" text-transform="uppercase">Pro Wireless Headphones</mj-text>
+  <mj-text><span style="color:#444444;text-decoration:line-through;">R2,499</span>
+  &nbsp;&nbsp;&nbsp;
+  <span style="color:#FFE500; font-weight:600; font-size:22px;">R999</span></mj-text>
+  </mj-column>
+<mj-column width="2%"><mj-spacer height="10px"/></mj-column>
+
+
+    <!-- Product 2 -->
+  <mj-column padding="0 0 0 6px"
+    background-color="#0D0D0D"
+    border="1px solid #1A1A1A" width="49%">
+
+
+    <!--RIGHT SIDE (TAG)-->
+<mj-text font-size="14px" align="right" padding="15px">
+<span style="background:#FFE500; color:#000000; padding:4px; font-weight:600">30% OFF</mj-text>
+    <!--LEFT SIDE-->
+    
+  <mj-text font-size="32px" color="#ffffff">&#9000;</mj-text>
+    <mj-text color="#444444" text-transform="uppercase">pheripherals</mj-text>
+    <mj-text color="#ffffff" font-size="16px" font-weight="600" text-transform="uppercase">Pro Wireless Headphones</mj-text>
+  <mj-text><span style="color:#444444;text-decoration:line-through;">R1,799</span>
+  &nbsp;&nbsp;&nbsp;
+  <span style="color:#FFE500; font-weight:600; font-size:22px;">R1,079</span></mj-text>
+    
+  </mj-column>
+
+</mj-section>
+
+<!-- Row 2 — next two products -->
+<mj-section background-color="#000000"
+  padding="0 40px 40px 40px">
+<!-- Product 3 -->
+  <mj-column padding="0 6px 0 0"
+    background-color="#0D0D0D"
+    border="1px solid #1A1A1A" width="49%">
+    
+
+     <!--RIGHT SIDE (TAG)-->
+<mj-text font-size="14px" align="right" padding="15px">
+<span style="background:#FFE500; color:#000000; padding:4px; font-weight:600">45% OFF</mj-text>
+    <!--LEFT SIDE-->
+    <mj-text font-size="32px" color="#ffffff">&#128433;</mj-text>
+
+    <mj-text color="#444444" text-transform="uppercase">pheripherals</mj-text>
+    <mj-text color="#ffffff" font-size="16px" font-weight="600" text-transform="uppercase">Pro Wireless Headphones</mj-text>
+  <mj-text>
+  <span style="color:#444444;text-decoration:line-through;">R899</span>
+  &nbsp;&nbsp;&nbsp;
+  <span style="color:#FFE500; font-weight:600; font-size:22px;">R584</span>
+  </mj-text>
+       
+  </mj-column>
+  <mj-column width="2%"><mj-spacer height="10px"/></mj-column>
+  
+ <!-- Product 4 -->
+  <mj-column padding="0 0 0 6px"
+    background-color="#0D0D0D"
+    border="1px solid #1A1A1A" width="49%">
+   
+
+     <!--RIGHT SIDE (TAG)-->
+<mj-text font-size="14px" align="right" padding="15px">
+<span 
+style="background:#FFE500; color:#000000; padding:4px; font-weight:600">50% OFF</mj-text>
+    <!--LEFT SIDE-->
+    <mj-text font-size="32px">&#128161;</mj-text>
+
+    <mj-text color="#444444" text-transform="uppercase">lighting</mj-text>
+    <mj-text color="#ffffff" font-size="16px" font-weight="600" text-transform="uppercase">Pro Wireless Headphones</mj-text>
+  <mj-text><span style="color:#444444;text-decoration:line-through;">R649</span>
+  &nbsp;&nbsp;&nbsp;
+  <span style="color:#FFE500; font-weight:600; font-size:22px;">R324</span></mj-text>
+    
+  </mj-column>
+
+</mj-section>
+
+<!--DEAL OF THE DAY-->
+
+<mj-section border="2px solid #FFE500" padding="0">
+
+<!--LEFT-->
+<mj-column width="60%"  padding="0" >
+<mj-text color="#ffffff" text-transform="uppercase" ><span style="background:#FFE500; padding:4px; color:#000000; font-weight:600;">&#127775;deal of the day</span></mj-text>
+<mj-text  color="#ffffff" font-size="28px" font-weight="700" text-transform="uppercase" font-family="Bebas Neue">4K Webcam</mj-text>
+<mj-text color="#444444">Crystal clear 4K video, built-in noise cancelling mic, works with every platform.</mj-text>
+<mj-text
+><span style="color:#FFE500;font-size:22px; font-weight:600;">799</span>  &nbsp;&nbsp;&nbsp;
+<span style="text-decoration:line-through; color:#444444">R1599</span></mj-text>
+<mj-button background-color="#FFE500" color="#000000" font-weight="600" text-transform="uppercase" align="left">Grab this deal &#8594;</mj-button>
+</mj-column>
+
+<!--RIGHT-->
+
+<mj-column width="40%" vertical-align="top" >
+<mj-text align="center" font-size="80px" padding="50% 0 50% 0">&#128247;</mj-text>
+</mj-column>
+</mj-section>
+
+<!--SHOP BY CATEGORY-->
+<mj-section padding="0px">
+<!--FIRST ROW-->
+<mj-column >
+<mj-button align="center" background-color="#000000" color="#FFE500" border="1px solid #FFE500" text-transform="uppercase">Audio</mj-button>
+</mj-column>
+<mj-column >
+<mj-button align="center" background-color="#000000" color="#444444" border="1px solid #444444" text-transform="uppercase">Keyboards</mj-button>
+</mj-column>
+<mj-column >
+<mj-button align="center" background-color="#000000" color="#444444" border="1px solid #444444" text-transform="uppercase">Mice</mj-button>
+</mj-column>
+
+
+</mj-section>
+
+<!--SECOND ROW-->
+<mj-section padding="0px">
+
+<mj-column >
+<mj-button align="center" background-color="#000000" color="#444444" border="1px solid #444444" text-transform="uppercase">Monitors</mj-button>
+</mj-column>
+<mj-column >
+<mj-button align="center" background-color="#000000" color="#444444" border="1px solid #444444" text-transform="uppercase">Lighting</mj-button>
+</mj-column>
+<mj-column >
+<mj-button align="center" background-color="#000000" color="#444444" border="1px solid #444444" text-transform="uppercase">Webcams</mj-button>
+</mj-column>
+</mj-section>
+
+<!--THIRD ROW-->
+<mj-section padding="0px">
+<mj-column >
+<mj-button align="center" background-color="#000000" color="#444444" border="1px solid #444444" text-transform="uppercase">Cables</mj-button>
+</mj-column>
+</mj-section>
+
+<!--OFFER ENDS MIDNIGHT-->
+<mj-section>
+<mj-column background-color="#FFE500" vertical-align="middle">
+<mj-text color="#000000" font-weight="600" font-size="16px" align="center" text-transform="uppercase">&#9200;  OFFER ENDS MIDNIGHT FRIDAY — DON'T MISS OUT</mj-text>
+<mj-text color="#444444" align="center" text-transform="uppercase" font-weight="500">Limited stock on selected items</mj-text>
+</mj-column>
+</mj-section>
+
+<!--FOOTER-->
+
+<mj-section>
+<mj-column width="40%">
+<mj-text color="#ffffff" font-weight="600" font-family="Bebas Neue" font-size="22px">STACKD</mj-text>
+</mj-column>
+<mj-column width="60%">
+<mj-group>
+<mj-column width="33.33%">
+<mj-text color="#444444" text-transform="uppercase" font-size="14px">Returns</mj-text>
+</mj-column >
+<mj-column width="33.33%">
+
+<mj-text color="#444444" text-transform="uppercase" font-size="14px">Privacy</mj-text>
+</mj-column >
+<mj-column width="33.33%">
+<mj-text color="#444444" text-transform="uppercase" font-size="14px">Help</mj-text>
+</mj-column >
+<mj-group>
+
+</mj-column>
+</mj-section>
+<!--DIVIDER-->
+<mj-section>
+<mj-column>
+<mj-divider border-color="#444444" border-width="1px" border-style="solid"></mj-divider>
+</mj-column>
+</mj-section>
+
+<!--COPYRIGHT-->
+<mj-section>
+<mj-column width="70%">
+<mj-text color="#444444">&copy; 2026 STACKD.All rights reserved.</mj-text>
+</mj-column>
+<mj-column width="30%">
+<mj-text><a href="#" style="color:#444444">Unsubscribe</a></mj-text>
+</mj-column>
+
+</mj-section>
+
+
+</mj-body>
+</mjml>

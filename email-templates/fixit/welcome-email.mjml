@@ -1,5 +1,9 @@
 <mjml>
 <mj-head>
+<mj-font name="Sora"
+    href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&display=swap" />
+  <mj-font name="DM Sans"
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" />
 
 </mj-head>
 <mj-body>
@@ -14,10 +18,10 @@
 
 </mj-section>
 
-<mj-section background-color="#1e3a5f">
+<mj-section background-color="#1e3a5f" padding="0">
 
-<mj-column >
-<mj-text ><span style="display:inline-block; background-color:rgba(244, 168, 35, 0.15); border:1px solid rgba(244,168,35,0.3); color:#f4a823; font-size:11px; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; padding:6px 14px; border-radius:20px;"> Welcome to the  community</span></mj-text>
+<mj-column padding="0" >
+<mj-text ><span style="display:inline-block; background-color:rgba(244, 168, 35, 0.15); border:1px solid rgba(244,168,35,0.3); color:#f4a823; font-size:11px; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; padding:6px 14px; border-radius:20px;"><span style="font-size:20px;">&#127881;</span> Welcome to the  community</span></mj-text>
 
 
 
@@ -25,10 +29,14 @@
 
 
 <mj-text align="left" color="#6b7280" font-size="20px">Your account is ready.Browse vetted plumbers, electricians, cleaners,tutors and more - all reviewed by real people in your area.</mj-text>
-<mj-button align="left" background-color="#f4a823" color="#1e3a5f" font-weight="bold">Browse Services</mj-button>
+<mj-button align="left" background-color="#f4a823" color="#1e3a5f" font-weight="bold">Browse Services <span style="font-size:20px;">&#8594;</span></mj-button>
 <mj-text color="#ffffff">Learn how it works</mj-text>
-<mj-spacer />
-<mj-text padding="0px" height="40px" color="#1e3a5f" align="center"  font-weight="semi-bold" font-size="14px"><div style="background-color:#f4a823; padding:10px; height:40px; overflow-x:hidden">Hi user- here's how to get the most out of FixIt</div></mj-text>
+
+<mj-text padding="0" font-size="14px">
+  <div style="background-color:#f4a823; padding:0 10px; height:40px; line-height:40px; text-align:center; color:#1e3a5f; font-weight:600;">
+   <span style="font-size:20px;">&#128075;</span> Hi user — here's how to get the most out of FixIt
+  </div>
+</mj-text>
     </mj-column>
 </mj-section>
 <mj-section background-color="#ffffff">
@@ -46,7 +54,7 @@
 </mj-section>
 
 <mj-section background-color="#ffffff" >
-<mj-column width="33%" vertical-align="middle">
+<mj-column width="10%" >
 <mj-text align="center" >
       <span style="
         display:inline-block;
@@ -65,7 +73,7 @@
   </mj-column>
 
   <!-- Text content -->
-  <mj-column width="67%" vertical-align="middle" >
+  <mj-column width="70%" vertical-align="middle" >
     <mj-text  align="left" >
       <strong>Search your service</strong>
     </mj-text>
@@ -78,7 +86,7 @@
 <mj-section background-color="#ffffff">
   
   <!-- Number circle -->
-  <mj-column width="33%" vertical-align="middle">
+  <mj-column width="10%" vertical-align="middle">
     <mj-text align="center">
       <span style="
         display:inline-block;
@@ -97,7 +105,7 @@
   </mj-column>
 
   <!-- Text content -->
-  <mj-column width="67%" vertical-align="middle">
+  <mj-column width="70%" vertical-align="middle">
     <mj-text>
       <strong>Compare profiles and reviews</strong>
     </mj-text>
@@ -110,7 +118,7 @@
 </mj-section>
 
 <mj-section background-color="#ffffff">
-<mj-column width="33%" vertical-align="middle">
+<mj-column width="10%" vertical-align="middle">
 <mj-text align="center">
       <span style="
         display:inline-block;
@@ -129,7 +137,7 @@
   </mj-column>
 
   <!-- Text content -->
-  <mj-column width="67%" vertical-align="middle">
+  <mj-column width="70%" vertical-align="middle">
     <mj-text>
       <strong>Contact directly, no middleman</strong>
     </mj-text>
@@ -139,52 +147,133 @@
   </mj-column>
 </mj-section>
 
-<mj-section background-color="#6b7280">
+<mj-section background-color="#ffffff">
 <mj-column>
-<mj-text><span style="color:#f4a823; text-transform:uppercase">Browse by category</mj-text>
-<mj-text>What do you need help with?</mj-text>
+<mj-text><span style="color:#f4a823; text-transform:uppercase; font-size:14px;font-weight:bold">Browse by category</mj-text>
+<mj-text font-size="24px" color="#1e3a5f" font-weight="bold">What do you need help with?</mj-text>
 </mj-column>
 </mj-section>
 
-<mj-section background-color="#6b7280" padding="5px">
+<mj-section background-color="#ffffff" padding="5px">
 
 <mj-column  width="33.33%" padding="5px" >
-<mj-text container-background-color="#ffffff" padding="15px" height="15px"><span style='font-size:30px;'>&#128295;</span></mj-text>
-<mj-text container-background-color="#ffffff" padding="15px" height="15px">Plumbing</mj-text>
-<mj-text container-background-color="#ffffff" padding="0 15px 15px 15px">48 providers</mj-text>
+<mj-text align="center" color="#6b7280" padding="15px" height="15px"><span style='font-size:30px;'>&#128295;</span></mj-text>
+<mj-text align="center" color="#6b7280" padding="15px" height="15px"><strong style="font-weight:bold; color:#1e3a5f">Plumbing</strong></mj-text>
+<mj-text align="center" color="#6b7280" padding="0 15px 15px 15px">48 providers</mj-text>
+</mj-column>
+
+<mj-column  width="33.33%" padding="5px"  >
+<mj-text align="center" color="#6b7280" padding="15px" height="15px"><span style='font-size:30px;'>&#9889;</span></mj-text>
+<mj-text align="center" color="#6b7280" padding="15px" height="15px"><strong style="font-weight:bold; color:#1e3a5f">Electrical</strong></mj-text>
+<mj-text  align="center" color="#6b7280" padding="0 15px 15px 15px">36 providers</mj-text>
 </mj-column>
 
 <mj-column  width="33.33%" padding="5px" >
-<mj-text container-background-color="#ffffff" padding="15px" height="15px">Electrical</mj-text>
-<mj-text  container-background-color="#ffffff" padding="0 15px 15px 15px">48 providers</mj-text>
-</mj-column>
-
-<mj-column  width="33.33%" padding="5px"  border-radius="20%">
-<mj-text container-background-color="#ffffff" padding="15px" height="15px">Cleaning</mj-text>
-<mj-text container-background-color="#ffffff" padding="0 15px 15px 15px" >48 providers</mj-text>
+<mj-text align="center" color="#6b7280" padding="15px" height="15px"><span style='font-size:30px;'>&#129529;</span></mj-text>
+<mj-text align="center" color="#6b7280" padding="15px" height="15px"><strong style="font-weight:bold; color:#1e3a5f">Cleaning</strong></mj-text>
+<mj-text align="center" color="#6b7280" padding="0 15px 15px 15px" >62 providers</mj-text>
 </mj-column>
 </mj-section>
 
 
-<mj-section background-color="#6b7280">
+<mj-section background-color="#ffffff">
 
-<mj-column width="33.33%" padding="5px"  border-radius="30px">
-<mj-text container-background-color="#ffffff" padding="15px" height="15px">Tutoring</mj-text>
-<mj-text container-background-color="#ffffff" padding="0 15px 15px 15px">48 providers</mj-text>
+<mj-column width="33.33%" padding="5px"  border-radius="30px" border="1px gray">
+<mj-text align="center" color="#6b7280" padding="15px" height="15px"><span style='font-size:30px;'>&#128218;</span></mj-text>
+<mj-text align="center" color="#6b7280" padding="15px" height="15px"><strong style="font-weight:bold; color:#1e3a5f">Tutoring</strong></mj-text>
+<mj-text align="center" color="#6b7280" padding="0 15px 15px 15px">29 providers</mj-text>
 </mj-column>
 
 <mj-column  width="33.33%" padding="5px"  border-radius="20%">
-<mj-text container-background-color="#ffffff" padding="15px" height="15px">Gardening</mj-text>
-<mj-text container-background-color="#ffffff" padding="0 15px 15px 15px">48 providers</mj-text>
+<mj-text align="center" color="#6b7280" padding="15px" height="15px"><span style='font-size:30px;'>&#127807;</span></mj-text>
+<mj-text align="center" color="#6b7280" padding="15px" height="15px"><strong style="font-weight:bold; color:#1e3a5f">Gardening</strong></mj-text>
+<mj-text align="center" color="#6b7280" padding="0 15px 15px 15px">41 providers</mj-text>
 </mj-column>
 
 <mj-column width="33.33%" padding="5px"  border-radius="20%">
-<mj-text container-background-color="#ffffff" padding="15px" height="15px">Painting</mj-text>
-<mj-text container-background-color="#ffffff" padding="0 15px 15px 15px">48 providers</mj-text>
+<mj-text align="center"  padding="15px" height="15px"><span style='font-size:30px;'>&#127912;</span></mj-text>
+<mj-text align="center"  padding="15px" height="15px"><strong style="font-weight:bold; color:#1e3a5f">Painting</strong></mj-text>
+<mj-text align="center" color="#6b7280" padding="0 15px 15px 15px">43 providers</mj-text>
+</mj-column>
+
+
+</mj-section>
+<mj-section background-color="#ffffff" padding="0">
+  <mj-column padding="0">
+    <mj-divider border-color="#f4a823" border-width="4px" padding="0" />
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#ffffff"  >
+<mj-column  width="10%" >
+<mj-divider  border-color="#f4a823" border-width="20px" />
+</mj-column>
+<mj-column  width="10%">
+<mj-divider  border-color="#f4a823" border-width="20px" />
+
+</mj-column>
+<mj-column width="100%">
+<mj-text font-size="20px">Found an electrician within 20 minutes. He arrived the same afternoon, fixed the problem, and charged exactly what he quoted. FixIt is the only way I find help now.</mj-text>
+</mj-column>
+<mj-column width="10%">
+<mj-text align="left">
+<span style="display:inline-block;
+        background-color:#1e3a5f;
+        height:30px;
+        width:30px;
+        color:#f4a823;
+        line-height:30px;
+        border-radius:50%;
+        font-weight:bold;
+        text-align:center;
+        font-size:14px;">TM</span>
+</mj-text>
+</mj-column>
+<mj-column width="70%">
+<mj-text>Thabo M.</mj-text>
+<mj-text color="#6b7280">Johannesburg, Gauteng</mj-text>
+</mj-column>
+
+</mj-section>
+
+<mj-section background-color="#1e3a5f">
+<mj-column vertical-align="middle">
+<mj-text align="center" font-size="24px" color="white" font-weight="bold">Are you a service provider?</mj-text>
+<mj-text align="center" color="#ffffff" font-size="18px">List your business on FixIt for free and start receiving enquiries from customers in your area today.</mj-text>
+
+<mj-button border="4px solid #f4a823" color="#f4a823" font-weight="bold" background-color="#1e3a5f" font-size="16px">List Your Business</mj-button>
+<mj-text>
+</mj-column>
+</mj-section>
+<!--FOOTER-->
+<mj-section background-color="#111B27">
+<mj-column width="50%">
+<mj-text font-size="18px"><span style="color:#ffffff">Fix</span><span style="color:#f4a823">It</span></mj-text>
+</mj-column>
+<mj-column width="16.66%">
+<mj-text color="#6b7280">Privacy</mj-text>
+</mj-column>
+<mj-column width="16.66%">
+<mj-text color="#6b7280">Terms</mj-text>
+</mj-column>
+<mj-column width="16.66%">
+<mj-text color="#6b7280">Support</mj-text>
 </mj-column>
 </mj-section>
 
+<!--DIVIDER-->
+<mj-section background-color="#111B27">
+<mj-column width="100%" padding="0" >
+<mj-divider padding="0" border-color="#f8f9fa" border-width="0.2px"/>
+</mj-column>
+</mj-section>
+<mj-section background-color="#111B27">
+<mj-column width="70%">
+<mj-text color="#6b7280">&copy; 2026 FixIt. All rights reserved.</mj-text>
 
-
+</mj-column>
+<mj-column width="30%" >
+<mj-text color="#6b7280"><a href="#" style="color:#6b7280;">Unsubscribe</a></mj-text></mj-column>
+</mj-section>
 </mj-body>
 </mjml>

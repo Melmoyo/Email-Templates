@@ -54,6 +54,7 @@ Find a Service Provider
 <mj-column >
 <mj-text align="center" color="#1e3a5f" font-size="32px" font-weight="bold">03</mj-text>
 <mj-text align="center" font-weight="bold">Contact Directly</mj-text>
+<mj-spacer height="20px"/>
 <mj-text align="center" color="#555555" font-size="14px" vertical-align="bottom" >Reach out and get the job done with confidence.</mj-text>
 
 </mj-column>
