@@ -1,0 +1,423 @@
+<mjml>
+<mj-head>
+
+
+  <!--GOOGLE FONTS-->
+  <mj-font name="Fraunces"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;0,700;1,600&display=swap" />
+  <mj-font name="DM Sans"
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" />
+
+  <!--GLOBAL STYLING-->
+  <mj-attributes>
+
+    <!--ALL SECTIONS-->
+    <mj-section padding="0" background-color="#FAFAF8" />
+
+    <!--ALL COLUMNS-->
+    <mj-column padding="0" />
+
+    <!--TEXT STYLING-->
+    <mj-text
+      font-family="'DM Sans', Arial, sans-serif"
+      font-size="15px"
+      font-weight="400"
+      color="#7A7570"
+      line-height="1.7"
+      padding="0" />
+
+    <!--HEADING STYLING-->
+    <mj-class name="heading"
+      font-family="'Fraunces', Georgia, serif"
+      font-size="32px"
+      font-weight="700"
+      color="#1E2A3A"
+      line-height="1.2"
+      letter-spacing="-0.5px"
+      padding="0" />
+
+    <mj-class name="subheading"
+      font-family="'Fraunces', Georgia, serif"
+      font-size="17px"
+      font-weight="600"
+      color="#1E2A3A"
+      line-height="1.3"
+      letter-spacing="-0.2px"
+      padding="0" />
+
+    <mj-class name="label"
+      font-family="'DM Sans', Arial, sans-serif"
+      font-size="10px"
+      font-weight="700"
+      color="#FF6B35"
+      letter-spacing="0.15em"
+      text-transform="uppercase"
+      padding="0" />
+
+    <!--BUTTON STYLING-->
+    <mj-button
+      font-family="'DM Sans', Arial, sans-serif"
+      font-size="14px"
+      font-weight="700"
+      background-color="#1E2A3A"
+      color="#ffffff"
+      border-radius="0"
+      inner-padding="14px 32px"
+      letter-spacing="0.05em" />
+
+  </mj-attributes>
+
+  <!--CUSTOM CSS-->
+  <mj-style>
+    a { color: #FF6B35; }
+    .tag {
+      display: inline-block;
+      background-color: #FF6B35;
+      color: #ffffff;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+    }
+    .tag-outline {
+      display: inline-block;
+      border: 1px solid #E0DCD4;
+      color: #9B9589;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 2px 8px;
+    }
+    .tag-outline.orange {
+      border-color: rgba(255,107,53,0.3);
+      color: #FF6B35;
+      background: rgba(255,107,53,0.05);
+    }
+  </mj-style>
+
+
+</mj-head>
+
+<mj-body>
+<!--HEADER-->
+<mj-section background-color="#1E2A3A">
+<mj-column padding="10px" width="55%">
+<mj-text mj-class="heading" ><span style="color:#ffffff">Dev</span><span style="color:#FF6B35;">Pulse</span></mj-text>
+<mj-text text-transform="uppercase" font-size="14px">Weekly developer digest</mj-text>
+</mj-column>
+
+
+<!--DIVIDER-->
+<mj-column   width="1px"   padding="0px" >
+<mj-divider  border-style="solid" border-color="#7a7570" border-width="50px" padding="10px 0 0 0"></mj-divider>
+</mj-column>
+<mj-column width="40%" padding="10px 0px 0 150px">
+<mj-text>Issue #47</mj-text>
+<mj-text>April 5, 2025</mj-text>
+</mj-column>
+
+</mj-section>
+
+<!--TOP STORY-->
+<mj-section background-color="#1e2a3a">
+<mj-column padding="20px 10px" width="100%">
+<mj-text ><span style="background:#ff6b35; color:#ffffff;padding:5px">Top story</span></mj-text>
+<mj-text mj-class="heading" color="#ffffff" padding-top="20px">React 20 drops concurrent
+rendering by default</mj-text>
+<mj-text color="#ffffff" padding-top="20px">The React core team announced this week that concurrent features will be enabled automatically in React 20, removing the need for manual opt-in via createRoot.
+ Here's what changes for your codebase.</mj-text>
+ <mj-text padding="20px 10px"><a href="#" style="text-transform:uppercase; text-decoration:none; font-family:DM Sans; font-weight:600">Read full story  &#8594;</a></mj-text>
+</mj-column width="100%">
+<!--DIVIDER-->
+<mj-column width="100%">
+<mj-divider border-color="#FF6B35" border-width="2px" padding="0"/>
+</mj-column>
+</mj-section>
+<mj-section background-color="#7A7570">
+<mj-column width="40%" padding="10px">
+<mj-text color="#000000">Sponsored</mj-text>
+</mj-column>
+<mj-column width="60%" padding="10px">
+<mj-text><span style="color:#000000;">Ship faster with</span><span style="color:#ff6b35"> Vercel — try Pro free for 14 days</span></mj-text>
+
+</mj-column>
+</mj-section>
+
+<mj-section background-color="#ffffff">
+<mj-column padding="10px" width="80%">
+<mj-text text-transform="uppercase" color="#1e2a3a" font-weight="600" font-family="DM Sans">This week in dev</mj-text>
+</mj-column>
+<mj-column padding="10px" width="20%">
+<mj-text>4 stories</mj-text>
+</mj-column>
+</mj-section>
+
+<!--DIVIDER-->
+<mj-section>
+<mj-column width="100%"><mj-divider border-color="#1e2a3a"/></mj-column>
+</mj-section>
+
+<!--ARTICLES-->
+<mj-section background-color="#ffffff">
+<!--TYPESCRIPT ARTICLE-->
+<mj-column padding="10px 0 0 20px" width="20%">
+<mj-text font-size="32px" mj-class="heading" color="#7a7570">01</mj-text>
+</mj-column>
+<mj-column width="80%" padding="0 0 0 0">
+<mj-text text-transform="uppercase" color="#ff6b35" font-weight="700" padding="20px 0 10px 0" >
+<span style="padding:8px; border:1px solid #ff6b35;background:rgba(226, 129, 94, 0.2);">
+Typescript</span>
+</mj-text>
+<mj-text mj-class="heading" font-size="20px" padding="10px 0 10px 0">TypeScript 5.5 brings inferred type predicates to functions</mj-text>
+
+<mj-text>No more manual type guards — TS now figures it out from your return statements automatically.</mj-text>
+<mj-text ><span style="color:#7a7570;padding-right:10px">5 min read</span >
+<span style="color:#ff6b35; font-weight:600;">typescript.dev</span>
+</mj-column>
+
+<!--DIVIDER-->
+<mj-column width="100%">
+<mj-divider border-color="#7a7570" border-width="1px"/>
+</mj-column>
+<!--CSS ARTICLE-->
+<mj-column padding="10px 0 0 20px" width="20%">
+<mj-text font-size="32px" mj-class="heading" color="#7a7570">02</mj-text>
+</mj-column>
+<mj-column width="80%" padding="0 0 0 0">
+<mj-text text-transform="uppercase" color="#ff6b35" font-weight="700" padding="20px 0 10px 0" >
+<span style="padding:8px; border:1px solid #ff6b35;background:rgba(226, 129, 94, 0.2);">
+CSS</span>
+</mj-text>
+<mj-text mj-class="heading" font-size="20px" padding="10px 0 10px 0">CSS@starting-style is finally in all major browsers</mj-text>
+
+<mj-text>Animate elements on their initial render without JavaScript. Browser support just hit 94%.</mj-text>
+<mj-text ><span style="color:#7a7570;padding-right:10px">5 min read</span >
+<span style="color:#ff6b35; font-weight:600;">web.dev</span>
+</mj-column>
+
+<!--DIVIDER-->
+<mj-column width="100%">
+<mj-divider border-color="#7a7570" border-width="1px"/>
+</mj-column>
+<!--TOOLING ARTICLE-->
+<mj-column padding="10px 0 0 20px" width="20%">
+<mj-text font-size="32px" mj-class="heading" color="#7a7570">03</mj-text>
+</mj-column>
+<mj-column width="80%" padding="0 0 0 0">
+<mj-text text-transform="uppercase" color="#ff6b35" font-weight="700" padding="20px 0 10px 0" >
+<span style="padding:8px; border:1px solid #ff6b35;background:rgba(226, 129, 94, 0.2);">
+TOOLING</span>
+</mj-text>
+<mj-text mj-class="heading" font-size="20px" padding="10px 0 10px 0">Bun 1.2 ships with a built-in S3 and SQL client</mj-text>
+
+<mj-text>No more installing aws-sdk just to read a bucket. Bun now ships native S3 and SQLite APIs out of the box.</mj-text>
+<mj-text ><span style="color:#7a7570;padding-right:10px">4 min read</span >
+<span style="color:#ff6b35; font-weight:600;">bun.sh</span>
+</mj-column>
+<!--DIVIDER-->
+<mj-column width="100%">
+<mj-divider border-color="#7a7570" border-width="1px"/>
+</mj-column>
+
+<!--OPINION ARTICLE-->
+<mj-column padding="10px 0 0 20px" width="20%">
+<mj-text font-size="32px" mj-class="heading" color="#7a7570">04</mj-text>
+</mj-column>
+<mj-column width="80%" padding="0 0 0 0">
+<mj-text text-transform="uppercase" color="#ff6b35" font-weight="700" padding="20px 0 10px 0" >
+<span style="padding:8px; border:1px solid #ff6b35;background:rgba(226, 129, 94, 0.2);">
+OPINION</span>
+</mj-text>
+<mj-text mj-class="heading" font-size="20px" padding="10px 0 10px 0">Are we overcomplicating frontend architecture?</mj-text>
+
+<mj-text>A widely shared essay argues that most apps don't need RSC, streaming, or edge functions. Worth the read.</mj-text>
+<mj-text ><span style="color:#7a7570;padding-right:10px">8 min read</span >
+<span style="color:#ff6b35; font-weight:600;">overreacted.io</span>
+</mj-column>
+
+<!--DIVIDER-->
+<mj-column width="100%">
+<mj-divider border-color="#7a7570" border-width="1px"/>
+</mj-column>
+
+
+</mj-section>
+<mj-section>
+
+<!--DIVIDER-->
+<mj-column width="1%">
+<mj-divider border-style="solid" border-color="#ff6b35" border-width="200px" padding="10px 0 0 0"/>
+</mj-column>
+
+<!--TIP OF THE WEEK-->
+<mj-column width="70%" padding="20px 10px">
+<mj-text color="#ff6b35"  text-transform="uppercase"><span>Tip of the week</span></mj-text>
+<mj-text mj-class="heading" font-size="20px">Use CSS clamp() for fluid typography</mj-text>
+<mj-text>Instead of media queries for font sizes, use 
+<span style="color:#000000; background:#7a7570; padding:3px;">clamp(min, preferred, max)</span> to create text that scales 
+smoothly between screen sizes. Example: <span style="color:#000000; background:#7a7570; padding:3px;">font-size: clamp(16px, 2.5vw, 24px)</span>
+ — never too small on mobile, never too big on desktop.</mj-text>
+</mj-column>
+</mj-section>
+
+<!--TOOLS WORTH TRYING-->
+<mj-section background-color="#ffffff">
+
+<mj-column padding="10px" width="100%">
+<mj-text mj-class="heading" font-size="16px" text-transform="uppercase">Tools worth trying</mj-text>
+</mj-column>
+
+</mj-section >
+
+<mj-section>
+<!--DIVIDER-->
+<mj-column width="100%" background-color="#1e2a3a">
+<mj-divider border-style="solid" border-color="#1e2a3a" border-width="1px"/>
+</mj-column>
+</mj-section>
+
+<!--FIRST SECTION-->
+<mj-section>
+<mj-column width="10%" padding="10px 0 0 10px">
+<mj-text font-size="28px">&#127912;</mj-text>
+</mj-column>
+<mj-column width="80%" padding="15px 10px 0 0">
+<mj-text mj-class="heading" font-size="16px">shadcn/ui 2.0</mj-text>
+<mj-text>Copy-paste React components that you own completely.
+ No package lock-in, fully customisable.</mj-text>
+<mj-text color="#ff6b35" font-weight="600" >Free<mj-text>
+</mj-column>
+</mj-section>
+<mj-section>
+<!--DIVIDER-->
+<mj-column width="100%" background-color="#1e2a3a" >
+<mj-divider border-style="solid" border-color="#1e2a3a" border-width="1px"/>
+</mj-column>
+</mj-section>
+
+<!--SECOND SECTION-->
+<mj-section>
+<mj-column width="10%" padding="10px 0 0 10px">
+<mj-text font-size="28px">&#127912;</mj-text>
+</mj-column>
+<mj-column width="80%" padding="15px 10px 0 0">
+<mj-text mj-class="heading" font-size="16px">Biome</mj-text>
+<mj-text>One tool to lint, format and check your JS/TS.
+ Replaces ESLint + Prettier and runs 10x faster.</mj-text>
+<mj-text color="#ff6b35" font-weight="600" >Open Source<mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section>
+<!--DIVIDER-->
+<mj-column width="100%" background-color="#1e2a3a">
+<mj-divider border-style="solid" border-color="#1e2a3a" border-width="1px"/>
+</mj-column>
+</mj-section>
+
+<!--THIRD SECTION-->
+<mj-section>
+<mj-column width="10%" padding="10px 0 0 10px">
+<mj-text font-size="28px">&#127912;</mj-text>
+</mj-column>
+<mj-column width="80%" padding="15px 10px 0 0">
+<mj-text mj-class="heading" font-size="16px">Fumadocs</mj-text>
+<mj-text>Next.js documentation framework with built-in search, MDX support and beautiful defaults..</mj-text>
+<mj-text color="#ff6b35" font-weight="600" >Open Source<mj-text>
+</mj-column>
+</mj-section>
+
+<!--COMMUNITY POLL-->
+<mj-section background-color="#1e2a3a">
+<mj-column padding="10px">
+<mj-text font-weight="600" text-transform="uppercase">Community poll</mj-text>
+<mj-text mj-class="heading" color="#ffffff" font-size="22px" align="center">What's your go-to CSS framework in 2026?</mj-text>
+</mj-column>
+
+</mj-section>
+
+
+<!--POLLS-->
+<mj-section background-color="#1e2a3a" >
+<mj-column>
+<!--TABLE-->
+<mj-table cellspacing="1">
+<!--TAILWIND CSS -->
+<tr style="border:2px solid #ff6b35; padding:20px;">
+<td style="padding:20px;color:#7a7570">Tailwind CSS</td>
+<td style=" padding:10px;">
+<span style="display:block; width:100px;background:#ff6b35;border-radius:8px">
+<span style="display:block;height:5px;background:#7a7570;width:68px; border-radius:8px"></span> </mj-text></td>
+<td style="color:#ff6b35; padding:0 0 0 20px">68%</td>
+</tr>
+<!--SPACER-->
+<tr><td height="10px"></td></tr>
+
+<!--CSS MODULES-->
+<tr style="border:2px solid #ff6b35; padding:20px;">
+<td style="padding:20px;color:#7a7570"> CSS MODULES</td>
+<td style=" padding:10px;"><mj-text  container-background-color:"#7A7570" >
+<span style="display:block;background:#ff6b35;width:100px; border-radius:8px">
+<span style="display:block;height:5px;background:#7a7570;width:18px; border-radius:8px"></span></span> </mj-text></td>
+<td style="color:#7a7570; padding:0 0 0 20px">18%</td>
+</tr>
+<!--SPACER-->
+<tr><td height="10px"></td></tr>
+<!--VANILLA CSS-->
+<tr style="border:2px solid #ff6b35; padding:20px;">
+<td style="padding:20px;color:#7a7570"> VANILLA CSS </td>
+
+<td style=" padding:10px;">
+
+<span style="display:block; width:100px;background:#ff6b35;border-radius:8px">
+<span style="display:block;height:5px;background:#7a7570;width:14px; border-radius:8px"></span></span></td>
+<td style="color:#7a7570; padding:0 0 0 20px">14%</td>
+</tr>
+</mj-table>
+</mj-column>
+</mj-section>
+
+<mj-section background-color="#ffffff">
+<mj-column padding="20px 10px">
+<mj-text align="center" mj-class="heading" font-size="20px">Know a developer who'd love this?</mj-text>
+<mj-text align="center">Forward this issue or share your referral link.<br>
+Every 3 referrals gets you a free DevPulse sticker pack.</mj-text>
+<mj-button>Share DevPlus &#8594;</mj-button>
+</mj-column>
+</mj-section>
+<!--FOOTER-->
+
+<mj-section background-color="#1e2a3a">
+<mj-column padding="10px" width="70%">
+<mj-text mj-class="heading" font-size="22px"><span style="color:#ffffff">Dev</span >
+<span style="color:#ff6b35">Pulse</span>
+</mj-text>
+<mj-text color="#7a7570">Weekly Dev Digest . Issue #47</mj-text>
+</mj-column>
+<mj-column width="30%" padding="0 0 0 10px">
+<mj-text>Archives</mj-text>
+<mj-text>Advertise</mj-text>
+<mj-text>Privacy</mj-text>
+</mj-column>
+</mj-section>
+<!--DIVIDER-->
+<mj-section background-color="#1e2a3a">
+<mj-column width="100%">
+<mj-divider border-color="#7a7570" border-width="1px" border-style="solid"></mj-divider>
+</mj-column>
+</mj-section>
+<!--COPYRIGHT-->
+<mj-section background-color="#1E2A3A">
+<mj-column padding="10px" width="70%">
+<mj-text>&copy; 2026 DevPulse. All rights reserved.</mj-text>
+</mj-column>
+<mj-column width="30%" padding="0 0 0 10px">
+<mj-text><a href="#" style="color:#7a7579;">Unsubscribe</a></mj-text>
+</mj-column>
+</mj-section>
+
+
+</mj-body>
+</mjml>
