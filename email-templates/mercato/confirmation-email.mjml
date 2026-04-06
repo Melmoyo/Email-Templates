@@ -1,0 +1,344 @@
+<mjml>
+<mj-head>
+<!--FONTS-->
+<mj-font name="Plus Jarkata Sans" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"/>
+<mj-font name="Instrument Serif" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap"/>
+<mj-font name="DM Sans" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"/>
+<!--GLOBAL STYLES-->
+<mj-attributes>
+<mj-text>
+<!-- All text uses DM Sans by default -->
+    <mj-text
+      font-family="'Plus Jakarta Sans', Arial, sans-serif"
+      font-size="15px"
+      color="#1A1A1A"
+      line-height="1.6" />
+
+    <!-- All buttons use these defaults -->
+    <mj-button
+      background-color="#2ECC71"
+      color="#0A0A0A"
+      font-family="'Plus Jakarta Sans', Arial, sans-serif"
+      font-weight="700"
+      border-radius="6px" />
+
+    <!-- All sections have no padding by default -->
+    <mj-section padding="0" />
+
+    <!-- All columns have no padding by default -->
+    <mj-column padding="0" />
+</mj-text>
+</mj-attributes>
+</mj-head>
+
+<mj-body>
+<!--HERO-->
+<mj-section full-width="full-width" padding="5px 0 5px 0" background-color="#0A0A0A">
+<mj-column width="70%">
+<mj-text font-family=" Instrument Serif" line-height="1.3" font-weight="200" color="#ffffff" font-size="24px">Mercato<span style="color:#2ECC71; font-size:24px;">.</span></mj-text>
+</mj-column>
+<mj-column width="30%">
+<mj-text color="#9ca3af" font-family="Plus Jarkata Sans" font-size="16px">Order #MCT-00492</mj-text>
+</mj-column>
+
+
+
+<mj-column width="100%">
+
+  <!-- Check circle -->
+  <mj-text align="center" padding="60px 0 24px 0">
+    <span style="
+      display:inline-block;
+      background-color:#2ECC71;
+      width:64px;
+      height:64px;
+      border-radius:50%;
+      font-size:28px;
+      line-height:64px;
+      text-align:center;
+    ">✓</span>
+  </mj-text>
+
+  <!-- Order confirmed heading -->
+  <mj-text align="center" padding="0 0 12px 0"
+    font-size="38px" line-height="1.15">
+    <span style="
+      color:#ffffff;
+      font-family:'Plus Jakarta Sans', Arial, sans-serif;
+      font-weight:700;
+      letter-spacing:-0.5px;
+    ">Order </span>
+    <span style="
+      color:#2ECC71;
+      font-family:'Instrument Serif', Georgia, serif;
+      font-style:italic;
+    ">confirmed.</span>
+  </mj-text>
+
+  <!-- Subtitle -->
+  <mj-text align="center" padding="0 40px 60px 40px"
+    font-size="15px" line-height="1.7"
+    color="rgba(255,255,255,0.45)">
+    Thanks Samsay — we've received your order
+    and it's being prepared. You'll get a
+    shipping update soon.
+  </mj-text>
+
+</mj-column>
+</mj-section>
+
+<mj-section padding="0" background-color="#2ecc71" >
+<mj-column  width="60%" padding="10px 0 10px 0" vertical-align="middle">
+<mj-text>
+✦ Order confirmed and being processed
+</mj-column>
+<mj-column width="40%" padding="10px 0 10px 0" vertical-align="middle">
+<mj-text >
+Est. 3–5 business day</mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section background-color="#ffffff">
+<mj-column width="100%">
+<mj-text color="#2ecc71" font-size="14px" font-weight="500" ><span style="text-transform:uppercase;">Your Items</span></mj-text>
+<mj-text font-weight="500" font-size="20px">What you ordered</mj-text>
+</mj-column>
+
+<mj-column width="15%" padding="10px 0 20px 0">
+<mj-text ><span  style="font-size:30px; border:1px solid #9ca3af; padding:10px; border-radius:8px;">&#128095;</span></mj-text>
+</mj-column>
+<mj-column width="65%" vertical-align="middle">
+<mj-text ><span>Urban Runner Pro</span><br>
+<span style="color:#9ca3af;">Color: Midnight Black · Size: 42</span><br>
+<span>Qty: 1</span></mj-text>
+</mj-column>
+<mj-column width="20%">
+<mj-text>R1,299</mj-text>
+</mj-column>
+
+
+<mj-column width="15%" padding="10px 0 20px 0">
+<mj-text ><span  style="font-size:30px; border:1px solid #9ca3af; padding:10px; border-radius:8px;">&#128085;</span></mj-text>
+</mj-column>
+<mj-column width="65%">
+<mj-text><span>Essential Cotton Tee</span><br>
+<span style="color:#9ca3af;">Colour: White · Size: L</span><br>
+<span>Qty: 2</span></mj-text>
+</mj-column>
+<mj-column width="20%">
+<mj-text>R398</mj-text>
+</mj-column>
+
+
+<mj-column width="15%" padding="10px 0 0 0">
+<mj-text ><span  style="font-size:30px; border:1px solid #9ca3af; padding:10px; border-radius:8px;">&#129506;</span></mj-text>
+</mj-column>
+<mj-column width="65%">
+<mj-text><span>Classic Snapback Cap</span><br>
+<span style="color:#9ca3af;">Colour: Navy · One Size</span><br>
+<span>Qty: 1</span></mj-text>
+</mj-column>
+<mj-column width="20%">
+<mj-text>R249</mj-text>
+</mj-column>
+
+<mj-column width="90%">
+<mj-table align="center">
+<tr>
+    <td style="color:#6B7280; font-size:13px; padding:8px 0;">Subtotal</td>
+    <td style="text-align:right; font-weight:600; font-size:13px; padding:8px 0;">R1,946</td>
+  </tr>
+  <mj-divider border-color="#9ca3af" border-width="10px"></mj-divider>
+  <tr>
+    <td style="color:#6B7280; font-size:13px; padding:8px 0;">Discount</td>
+    <td style="text-align:right; font-weight:600; color:#2ECC71; font-size:13px; padding:8px 0;">− R194</td>
+  </tr>
+  <tr>
+    <td style="font-weight:700; font-size:15px; padding:12px 0 0;">Total</td>
+    <td style="text-align:right; font-weight:800; font-size:18px; padding:12px 0 0;">R1,752</td>
+  </tr>
+</mj-table>
+</mj-column>
+
+</mj-section>
+
+
+<!--ESTIMATED DELIVERY-->
+
+  
+<mj-section  background-color="#ffffff" padding="24px 48px"
+  >
+  <!-- Left — icon + delivery date -->
+  <mj-column background-color="#0A0A0A"  border-radius="10px" padding="10px 0">
+    <mj-text color="#ffffff" font-size="12px" 
+      color="rgba(255,255,255,0.45)">
+    <span style="display:inline-block;width:70%"> 
+     <span ><span>&#128230;</span>Estimated delivery</span><br>
+    <span style="font-size:15px; font-weight:700; padding-left:20px;"> Wednesday, 9 April 2025</span></span>  
+    
+    </mj-text>
+    <mj-text><span style="display: inline-block;
+        background-color: #2ECC71;
+        color: #0A0A0A;
+        font-size: 11px;
+        font-weight: 700;
+        padding: 6px 14px;
+        border-radius: 20px;
+        
+      "> On Track</span></mj-text>
+     
+  </mj-column>
+ 
+
+  <!-- Right — On Track badge -->
+  <mj-column background-color="#0A0A0A" >
+   
+  </mj-column>
+
+</mj-section>
+
+
+<!--DELIVERY DETAILS-->
+<mj-section background-color="#ffffff">
+<mj-column width="100%">
+<mj-text><span style="color:#2ecc71; font-weight:700; font-size:14px;text-transform:uppercase;">Delivery details</span></mj-text>
+
+</mj-column >
+
+
+<mj-column padding="10px 0 0 0">
+  <mj-text padding="0" align="center">
+    <span style="font-size:11px; font-weight:700;
+      letter-spacing:0.12em; text-transform:uppercase;
+      color:#9CA3AF;">
+      Shipping To
+    </span>
+  </mj-text>
+  <mj-text padding="8px 0 0 0" line-height="1.8"
+    align="center" font-size="14px" font-weight="500"
+    color="#0A0A0A">
+    Samsay Jinwa<br />
+    14 Amarand Ave<br />
+    Menlyn, Pretoria<br />
+    0181
+  </mj-text>
+</mj-column>
+
+<mj-column padding="10px 0 0 0">
+  <mj-text padding="0" align="center">
+    <span style="font-size:11px; font-weight:700;
+      letter-spacing:0.12em; text-transform:uppercase;
+      color:#9CA3AF;">
+      Payment Method
+    </span>
+  </mj-text>
+  <mj-text padding="8px 0 0 0" line-height="1.8"
+    align="center" font-size="14px" font-weight="500"
+    color="#0A0A0A">
+    Visa ending in 4242<br />
+    Charged R1,752<br />
+    on 4 April 2025
+  </mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section  background-color="#ffffff" padding="24px 48px"
+  >
+
+  <!-- Left — icon + delivery date -->
+  <mj-column background-color="#0A0A0A" width="100%" border-radius="10px" padding="10px 0">
+    <mj-text color="#ffffff" font-size="12px" align="center"
+      color="rgba(255,255,255,0.45)"><span style="text-transform:uppercase;text-align:center;">track  your order</span>
+<span>&#8594;</span>
+    </mj-text>
+   
+     
+  </mj-column>
+  <mj-column width="100%">
+  <mj-text align="center"><span style="color:#9ca3af;">Questions? </span><span style="color:#2ecc71;">Contact support</span></mj-text>
+  </mj-column>
+
+   
+
+
+  
+
+</mj-section>
+<mj-section background-color="#0A0A0A" >
+<mj-column width="100%">
+<mj-text color="#ffffff" font-weight="700" font-size="18px"><strong>You might also like</strong></mj-text>
+</mj-column>
+<mj-column >
+<mj-text color="#ffffff" align="center" padding="10px ">
+<span style="font-size:25px;">&#129510;</span><br>
+<span>Sport Socks 3-Pack</span><br>
+<span style="color:#2ecc71;text-align:center;">R149</span></mj-text>
+</mj-column>
+<mj-column >
+<mj-text color="#ffffff" align="center" padding="10px ">
+<span style="font-size:25px;">&#128092;</span><br>
+<span>Daypack 20L</span><br>
+<span style="color:#2ecc71;text-align:center;">R599</span></mj-text>
+</mj-column>
+<mj-column>
+<mj-text color="#ffffff" align="center" padding="10px 0 5px 0">
+<span style="font-size:25px;">&#128083;</span><br>
+<span>Classic Shades</span><br>
+<span style="color:#2ecc71;">R349</span></mj-text>
+</mj-column>
+
+</mj-section>
+<!-- TOP ROW — Logo + Links -->
+<mj-section background-color="#050505" padding="28px 40px 16px 40px">
+
+  <mj-column width="60%">
+    <mj-text font-family="'Instrument Serif', Georgia, serif"
+      font-size="20px" color="#ffffff" padding="0">
+      Mercato<span style="color:#2ECC71">.</span>
+    </mj-text>
+  </mj-column>
+
+  <mj-column width="40%">
+    <mj-text align="right" padding="0"
+      font-size="12px" color="rgba(255,255,255,0.3)">
+      <a href="#" style="color:rgba(255,255,255,0.3);
+        text-decoration:none;">Returns</a>
+      &nbsp;&nbsp;
+      <a href="#" style="color:rgba(255,255,255,0.3);
+        text-decoration:none;">Privacy</a>
+      &nbsp;&nbsp;
+      <a href="#" style="color:rgba(255,255,255,0.3);
+        text-decoration:none;">Help</a>
+    </mj-text>
+  </mj-column>
+
+</mj-section>
+
+<!-- DIVIDER -->
+<mj-section background-color="#050505" padding="0 40px">
+  <mj-column>
+    <mj-divider border-style="solid" border-width="1px"
+      border-color="#1A1A1A" padding="0" />
+  </mj-column>
+</mj-section>
+
+<!-- BOTTOM ROW — Copyright + Unsubscribe -->
+<mj-section background-color="#050505" padding="16px 40px 28px 40px">
+
+  <mj-column width="70%">
+    <mj-text font-size="11px"
+      color="rgba(255,255,255,0.2)" padding="0">
+      © 2026 Mercato. All rights reserved.
+    </mj-text>
+  </mj-column>
+
+  <mj-column width="30%">
+    <mj-text align="right" font-size="11px" padding="0">
+      <a href="#" style="color:rgba(255,255,255,0.2);
+        text-decoration:underline;">Unsubscribe</a>
+    </mj-text>
+  </mj-column>
+
+</mj-section>
+</mj-body>
+</mjml>
