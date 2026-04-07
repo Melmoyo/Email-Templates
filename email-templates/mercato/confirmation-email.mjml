@@ -33,7 +33,7 @@
 
 <mj-body>
 <!--HERO-->
-<mj-section full-width="full-width" padding="5px 0 5px 0" background-color="#0A0A0A">
+<mj-section  padding="5px 0 5px 0" background-color="#0A0A0A">
 <mj-column width="70%">
 <mj-text font-family=" Instrument Serif" line-height="1.3" font-weight="200" color="#ffffff" font-size="24px">Mercato<span style="color:#2ECC71; font-size:24px;">.</span></mj-text>
 </mj-column>
@@ -87,12 +87,13 @@
 </mj-column>
 </mj-section>
 
-<mj-section padding="0" background-color="#2ecc71" >
-<mj-column  width="60%" padding="10px 0 10px 0" vertical-align="middle">
+<mj-section  padding="0" background-color="#2ecc71" >
+<mj-column width="60%"  padding="10px 0 10px 0" vertical-align="middle">
 <mj-text>
 ✦ Order confirmed and being processed
+</mj-text>
 </mj-column>
-<mj-column width="40%" padding="10px 0 10px 0" vertical-align="middle">
+<mj-column width="40%"  padding="10px 0 10px 0" vertical-align="middle">
 <mj-text >
 Est. 3–5 business day</mj-text>
 </mj-column>
@@ -113,7 +114,7 @@ Est. 3–5 business day</mj-text>
 <span>Qty: 1</span></mj-text>
 </mj-column>
 <mj-column width="20%">
-<mj-text>R1,299</mj-text>
+<mj-text font-weight="600">R1,299</mj-text>
 </mj-column>
 
 
@@ -126,7 +127,7 @@ Est. 3–5 business day</mj-text>
 <span>Qty: 2</span></mj-text>
 </mj-column>
 <mj-column width="20%">
-<mj-text>R398</mj-text>
+<mj-text font-weight="600">R398</mj-text>
 </mj-column>
 
 
@@ -139,7 +140,7 @@ Est. 3–5 business day</mj-text>
 <span>Qty: 1</span></mj-text>
 </mj-column>
 <mj-column width="20%">
-<mj-text>R249</mj-text>
+<mj-text font-weight="600">R249</mj-text>
 </mj-column>
 
 <mj-column width="90%">
@@ -166,17 +167,15 @@ Est. 3–5 business day</mj-text>
 <!--ESTIMATED DELIVERY-->
 
   
-<mj-section  background-color="#ffffff" padding="24px 48px"
+<mj-section  background-color="#ffffff" padding="24px 48px" full-width="full-width"
   >
   <!-- Left — icon + delivery date -->
-  <mj-column background-color="#0A0A0A"  border-radius="10px" padding="10px 0">
-    <mj-text color="#ffffff" font-size="12px" 
-      color="rgba(255,255,255,0.45)">
-    <span style="display:inline-block;width:70%"> 
-     <span ><span>&#128230;</span>Estimated delivery</span><br>
-    <span style="font-size:15px; font-weight:700; padding-left:20px;"> Wednesday, 9 April 2025</span></span>  
+  <mj-column width="100%" background-color="#0A0A0A"  border-radius="10px" padding="10px 0">
+  
+    <mj-text font-size="25px" color="#ffffff" > 
+  &#128230;Estimated delivery</mj-text>
+    <mj-text font-size="15px" font-weight="700" padding-left="20px" color="#ffffff"> Wednesday, 9 April 2025</mj-text> 
     
-    </mj-text>
     <mj-text><span style="display: inline-block;
         background-color: #2ECC71;
         color: #0A0A0A;
@@ -254,37 +253,45 @@ Est. 3–5 business day</mj-text>
    
      
   </mj-column>
+  <!--CONTACT SUPPORT-->
   <mj-column width="100%">
   <mj-text align="center"><span style="color:#9ca3af;">Questions? </span><span style="color:#2ecc71;">Contact support</span></mj-text>
   </mj-column>
 
-   
-
-
-  
-
 </mj-section>
+
+<!---WHAT YOU MIGHT LIKE-->
 <mj-section background-color="#0A0A0A" >
 <mj-column width="100%">
 <mj-text color="#ffffff" font-weight="700" font-size="18px"><strong>You might also like</strong></mj-text>
 </mj-column>
-<mj-column >
-<mj-text color="#ffffff" align="center" padding="10px ">
-<span style="font-size:25px;">&#129510;</span><br>
-<span>Sport Socks 3-Pack</span><br>
-<span style="color:#2ecc71;text-align:center;">R149</span></mj-text>
+
+</mj-section>
+<mj-section background-color="#0A0A0A">
+<mj-column width="30%" border="1px solid #9ca3af" padding="10px">
+
+<mj-text font-size="25px" align="center">&#129510;</mj-text>
+<mj-text font-size="20px" color="#ffffff" align="center">Sport Socks 3-Pack</mj-text>
+<mj-text color="#2ecc71" align="center" font-size="20px">R149</mj-text>
 </mj-column>
-<mj-column >
-<mj-text color="#ffffff" align="center" padding="10px ">
-<span style="font-size:25px;">&#128092;</span><br>
-<span>Daypack 20L</span><br>
-<span style="color:#2ecc71;text-align:center;">R599</span></mj-text>
+
+<!--DIVIDER-->
+<mj-column width="2%"><mj-spacer/></mj-column>
+
+
+<mj-column width="30%" border="1px solid #9ca3af" padding="10px">
+
+<mj-text font-size="25px" align="center">&#128092;</mj-text>
+<mj-text font-size="20px" color="#ffffff" align="center">Daypack 20L</mj-text>
+<mj-text color="#2ecc71" align="center" font-size="20px">R599</span></mj-text>
 </mj-column>
-<mj-column>
-<mj-text color="#ffffff" align="center" padding="10px 0 5px 0">
-<span style="font-size:25px;">&#128083;</span><br>
-<span>Classic Shades</span><br>
-<span style="color:#2ecc71;">R349</span></mj-text>
+<!--DIVIDER-->
+<mj-column width="2%"><mj-spacer/></mj-column>
+
+<mj-column width="30%" border="1px solid #9ca3af" padding="10px">
+<mj-text align="center" font-size="25px">&#128083;</mj-text>
+<mj-text color="#ffffff" align="center" font-size="20px">Classic Shades</mj-text>
+<mj-text color="#2ecc71" font-size="20px" align="center">R349</mj-text>
 </mj-column>
 
 </mj-section>

@@ -12,25 +12,28 @@
 <mj-text color="#ffffff" font-weight="700" font-size="28px" font-family="Bebas Neue">Stackd</mj-text>
 
 </mj-column>
+
 <mj-column >
 <mj-text color="#444444">BLACK FRIDAY 2026</mj-text>
 </mj-column>
 </mj-section>
-<mj-section>
+
+
 <!--DIVIDER-->
-<mj-column width="100%">
-<mj-divider border-color="#444444" border-width="1px" border-style="solid"></mj-divider>
+<mj-section background-color="#000000">
+<mj-column width="100%" >
+<mj-divider padding="0" border-color="#444444" border-width="1px" border-style="solid"></mj-divider>
 </mj-column>
 </mj-section>
 
-<mj-section>
+<mj-section background-color="#000000">
 <mj-column background-color="#FFE500" width="40%">
 <mj-text align="center" font-weight="600"><span style="text-transform:uppercase;">Black friday is here</span></mj-text>
-
 </mj-column>
 </mj-section>
+
 <!--BLACK FRIDAY TITLE-->
-<mj-section>
+<mj-section background-color="#000000">
 <mj-column>
 <mj-text align="center" font-family="Bebas Neue" font-size="80px" font-weight="900">
 <span style="color:#ffffff">BLACK</span> <br>
@@ -40,7 +43,7 @@
 </mj-section>
 
 
-<mj-section>
+<mj-section background-color="#000000">
 <mj-column>
 <mj-text color="#444444" font-size="20px" font-family="Inter" line-height="1.5">
 <span style="text-transform:uppercase">Deals end midnight Friday — don't sleep on this</span>
@@ -49,7 +52,7 @@
 </mj-section>
 
 <!--COUNTDOWN-->
-<mj-section full-width="full-width">
+<mj-section background-color="#000000">
 <mj-column border="1px solid #444444" width="16%">
 <mj-text color="#444444" align="center">
 <span style="font-size:36px;color:#FFE500">02</span><br>DAYS</mj-text>
@@ -78,7 +81,7 @@
 </mj-section>
 
 <!-- SHOP BUTTON-->
-<mj-section>
+<mj-section background-color="#000000">
 <mj-column >
 <mj-button padding="0" background-color="#FFE500" color="#000000" font-size="22px" font-weight="600">
 SHOP ALL DEALS &#8594;
@@ -88,7 +91,7 @@ SHOP ALL DEALS &#8594;
 </mj-section>
 
 <!--FEATURED-->
-<mj-section padding="0" full-width="full-width" background-color="#FFE500">
+<mj-section padding="0"  background-color="#FFE500">
 
 <!--COLUMN 1-->
 <mj-column  width="32.66%"  padding="8px 5px 8px 5px">
@@ -118,7 +121,7 @@ SHOP ALL DEALS &#8594;
 </mj-column>
 </mj-section>
 
-<mj-section>
+<mj-section background-color="#000000">
 <mj-column width="75%">
 <mj-text color="#FFFFFF" font-weight="700" font-size="28px" font-family="Inter">TOP DEALS</mj-text>
 
@@ -226,7 +229,7 @@ style="background:#FFE500; color:#000000; padding:4px; font-weight:600">50% OFF<
 
 <!--DEAL OF THE DAY-->
 
-<mj-section border="2px solid #FFE500" padding="0">
+<mj-section background-color="#000000" border="2px solid #FFE500" padding="0">
 
 <!--LEFT-->
 <mj-column width="60%"  padding="0" >
@@ -247,7 +250,7 @@ style="background:#FFE500; color:#000000; padding:4px; font-weight:600">50% OFF<
 </mj-section>
 
 <!--SHOP BY CATEGORY-->
-<mj-section padding="0px">
+<mj-section padding="0px" background-color="#111111">
 <!--FIRST ROW-->
 <mj-column >
 <mj-button align="center" background-color="#000000" color="#FFE500" border="1px solid #FFE500" text-transform="uppercase">Audio</mj-button>
@@ -263,7 +266,7 @@ style="background:#FFE500; color:#000000; padding:4px; font-weight:600">50% OFF<
 </mj-section>
 
 <!--SECOND ROW-->
-<mj-section padding="0px">
+<mj-section padding="0px" background-color="#111111">
 
 <mj-column >
 <mj-button align="center" background-color="#000000" color="#444444" border="1px solid #444444" text-transform="uppercase">Monitors</mj-button>
@@ -277,14 +280,14 @@ style="background:#FFE500; color:#000000; padding:4px; font-weight:600">50% OFF<
 </mj-section>
 
 <!--THIRD ROW-->
-<mj-section padding="0px">
+<mj-section padding="0px" background-color="#111111">
 <mj-column >
 <mj-button align="center" background-color="#000000" color="#444444" border="1px solid #444444" text-transform="uppercase">Cables</mj-button>
 </mj-column>
 </mj-section>
 
 <!--OFFER ENDS MIDNIGHT-->
-<mj-section>
+<mj-section background-color="#000000" padding-top="0">
 <mj-column background-color="#FFE500" vertical-align="middle">
 <mj-text color="#000000" font-weight="600" font-size="16px" align="center" text-transform="uppercase">&#9200;  OFFER ENDS MIDNIGHT FRIDAY — DON'T MISS OUT</mj-text>
 <mj-text color="#444444" align="center" text-transform="uppercase" font-weight="500">Limited stock on selected items</mj-text>
@@ -293,35 +296,34 @@ style="background:#FFE500; color:#000000; padding:4px; font-weight:600">50% OFF<
 
 <!--FOOTER-->
 
-<mj-section>
-<mj-column width="40%">
+<mj-section background-color="#000000">
+<mj-column width="20%">
 <mj-text color="#ffffff" font-weight="600" font-family="Bebas Neue" font-size="22px">STACKD</mj-text>
 </mj-column>
-<mj-column width="60%">
-<mj-group>
-<mj-column width="33.33%">
+
+<mj-column width="25%" >
 <mj-text color="#444444" text-transform="uppercase" font-size="14px">Returns</mj-text>
 </mj-column >
-<mj-column width="33.33%">
+<mj-column width="25%" >
 
 <mj-text color="#444444" text-transform="uppercase" font-size="14px">Privacy</mj-text>
 </mj-column >
-<mj-column width="33.33%">
+<mj-column width="25%" >
 <mj-text color="#444444" text-transform="uppercase" font-size="14px">Help</mj-text>
 </mj-column >
-<mj-group>
 
-</mj-column>
+
+
 </mj-section>
 <!--DIVIDER-->
-<mj-section>
+<mj-section background-color="#000000">
 <mj-column>
 <mj-divider border-color="#444444" border-width="1px" border-style="solid"></mj-divider>
 </mj-column>
 </mj-section>
 
 <!--COPYRIGHT-->
-<mj-section>
+<mj-section background-color="#000000">
 <mj-column width="70%">
 <mj-text color="#444444">&copy; 2026 STACKD.All rights reserved.</mj-text>
 </mj-column>

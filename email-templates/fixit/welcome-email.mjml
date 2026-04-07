@@ -245,20 +245,23 @@
 <mj-text>
 </mj-column>
 </mj-section>
+
 <!--FOOTER-->
 <mj-section background-color="#111B27">
-<mj-column width="50%">
+
+<mj-column width="20%">
 <mj-text font-size="18px"><span style="color:#ffffff">Fix</span><span style="color:#f4a823">It</span></mj-text>
 </mj-column>
-<mj-column width="16.66%">
+<mj-column>
 <mj-text color="#6b7280">Privacy</mj-text>
 </mj-column>
-<mj-column width="16.66%">
+<mj-column>
 <mj-text color="#6b7280">Terms</mj-text>
 </mj-column>
-<mj-column width="16.66%">
+<mj-column>
 <mj-text color="#6b7280">Support</mj-text>
 </mj-column>
+
 </mj-section>
 
 <!--DIVIDER-->

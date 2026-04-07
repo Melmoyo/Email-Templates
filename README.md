@@ -3,7 +3,10 @@ Email templates built with HTML and MJML- responsive,cross-client compatible.
 
 ## Templates
 -Welcome email
--Password rest
+-Password reset
+-Confirmation
+-Newsletter
+-Promo
 
 ## Built With
 -MJML
