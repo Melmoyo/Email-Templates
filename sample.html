@@ -1,0 +1,878 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wikipedia Donor Appeal</title>
+    <!-- Basic resets for email clients -->
+    <style>
+      body,
+      table,
+      td,
+      p,
+      a,
+      li {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      table,
+      td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        border-collapse: collapse !important;
+      }
+      body {
+        height: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+      }
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      font-family: &quot;Georgia&quot;, &quot;Times New Roman&quot;, serif;
+    "
+  >
+    <table
+      border="0"
+      cellspacing="0"
+      cellpadding="0"
+      role="presentation"
+      width="100%"
+    >
+      <tr>
+        <td style="padding: 20px" align="center" bgcolor="#ffffff">
+          <!-- Main Container -->
+          <table
+            border="0"
+            cellspacing="0"
+            cellpadding="0"
+            role="presentation"
+            width="600"
+            style="width: 600px; max-width: 600px"
+          >
+            <!-- TOP BAR -->
+            <tr>
+              <td
+                align="center"
+                bgcolor="#2c2c2c"
+                style="padding: 10px 40px; border-bottom: 1px solid #333333"
+              >
+                <table
+                  border="0"
+                  cellspacing="0"
+                  cellpadding="0"
+                  role="presentation"
+                  width="100%"
+                >
+                  <tr>
+                    <td
+                      align="left"
+                      style="
+                        font-family:
+                          &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                        font-size: 11px;
+                        color: #777777;
+                      "
+                    >
+                      Personalised for {{donor_name}}
+                    </td>
+                    <td
+                      align="center"
+                      style="
+                        font-family:
+                          &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                        font-size: 11px;
+                        color: #777777;
+                      "
+                    >
+                      Region: {{donor_region}}
+                    </td>
+                    <td
+                      align="right"
+                      style="
+                        font-family:
+                          &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                        font-size: 11px;
+                        color: #777777;
+                      "
+                    >
+                      Currency: {{currency}}
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- HEADER BANNER -->
+            <tr>
+              <td bgcolor="#1a1a1a" style="padding: 18px 40px">
+                <table
+                  border="0"
+                  cellspacing="0"
+                  cellpadding="0"
+                  role="presentation"
+                  width="100%"
+                >
+                  <tr>
+                    <!-- Logo Logo -->
+                    <td width="46" align="left">
+                      <table
+                        border="0"
+                        cellspacing="0"
+                        cellpadding="0"
+                        role="presentation"
+                        width="38"
+                        bgcolor="#ffffff"
+                        style="border-radius: 50%"
+                      >
+                        <tr>
+                          <td
+                            align="center"
+                            height="38"
+                            style="
+                              font-family:
+                                &quot;Linux Libertine&quot;,
+                                &quot;Georgia&quot;, serif;
+                              font-size: 22px;
+                              font-weight: bold;
+                              color: #1a1a1a;
+                              line-height: 38px;
+                            "
+                          >
+                            W
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <!-- Title -->
+                    <td
+                      align="left"
+                      style="
+                        font-family:
+                          &quot;Linux Libertine&quot;, &quot;Georgia&quot;,
+                          serif;
+                        font-size: 20px;
+                        color: #ffffff;
+                        letter-spacing: 0.02em;
+                        padding-left: 5px;
+                      "
+                    >
+                      Wikipedia
+                    </td>
+                    <!-- Fundraiser Text -->
+                    <td
+                      align="right"
+                      style="
+                        font-family:
+                          &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                        font-size: 11px;
+                        color: #a8a090;
+                        text-transform: uppercase;
+                        letter-spacing: 0.12em;
+                      "
+                    >
+                      Annual fundraiser 2026
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- APPEAL BANNER -->
+            <tr>
+              <td
+                bgcolor="#1A2E6B"
+                style="
+                  background: linear-gradient(135deg, #2b4590 0%, #1a2e6b 100%);
+                  padding: 28px 40px 24px;
+                  border-bottom: 3px solid #e8a020;
+                "
+              >
+                <p
+                  style="
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    margin: 0 0 10px 0;
+                    font-family: &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                    font-size: 11.5px;
+                    letter-spacing: 0.14em;
+                    opacity: 0.8;
+                  "
+                >
+                  A personal message to our supporters
+                </p>
+                <h1
+                  style="
+                    color: #ffffff;
+                    font-family:
+                      &quot;Georgia&quot;, &quot;Times New Roman&quot;, serif;
+                    font-size: 26px;
+                    line-height: 1.3;
+                    font-weight: normal;
+                    margin: 0;
+                  "
+                >
+                  Dear {{donor_name}}, Wikipedia needs your help today.
+                </h1>
+              </td>
+            </tr>
+
+            <!-- MESSAGE BODY -->
+            <tr>
+              <td style="padding: 36px 40px">
+                <h2
+                  style="
+                    font-family:
+                      &quot;Georgia&quot;, &quot;Times New Roman&quot;, serif;
+                    font-size: 17px;
+                    color: #1a1a1a;
+                    margin: 0 0 20px 0;
+                    line-height: 1.5;
+                    font-weight: normal;
+                  "
+                >
+                  Hi
+                  <strong style="color: #2b4590; font-weight: bold"
+                    >{{donor_name}}</strong
+                  >,
+                </h2>
+
+                <p
+                  style="
+                    font-family:
+                      &quot;Georgia&quot;, &quot;Times New Roman&quot;, serif;
+                    font-size: 15.5px;
+                    color: #2c2c2c;
+                    line-height: 1.78;
+                    margin: 0 0 18px 0;
+                  "
+                >
+                  I'll be honest with you. Wikipedia is the 5th most visited
+                  website in the world — yet we run almost entirely on donations
+                  from readers like you. No venture capital. No advertising. No
+                  data brokers. Just people who believe the world is better when
+                  knowledge is free.
+                </p>
+
+                <!-- Callout Box -->
+                <table
+                  border="0"
+                  cellspacing="0"
+                  cellpadding="0"
+                  role="presentation"
+                  width="100%"
+                  style="margin: 24px 0"
+                >
+                  <tr>
+                    <td bgcolor="#e8a020" width="4" style="width: 4px"></td>
+                    <td
+                      bgcolor="#f5f3ee"
+                      style="padding: 16px 20px; border-radius: 0 2px 2px 0"
+                    >
+                      <p
+                        style="
+                          margin: 0;
+                          font-family:
+                            &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                          font-size: 14px;
+                          color: #444444;
+                          line-height: 1.6;
+                        "
+                      >
+                        <strong
+                          style="
+                            color: #1a1a1a;
+                            font-size: 15px;
+                            font-weight: bold;
+                          "
+                          >1.4 billion people</strong
+                        >
+                        rely on Wikipedia every month across 333 languages. Our
+                        entire annual budget is less than what some tech
+                        companies spend on a single coffee order for their
+                        staff.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <p
+                  style="
+                    font-family:
+                      &quot;Georgia&quot;, &quot;Times New Roman&quot;, serif;
+                    font-size: 15.5px;
+                    color: #2c2c2c;
+                    line-height: 1.78;
+                    margin: 0 0 18px 0;
+                  "
+                >
+                  This is the time of year when we ask. If everyone reading this
+                  gave just a little, we'd be funded for another year in
+                  minutes. But most people scroll past. We hope you won't.
+                </p>
+
+                <!-- Dynamic Gift Notice -->
+                <table
+                  border="0"
+                  cellspacing="0"
+                  cellpadding="0"
+                  role="presentation"
+                  width="100%"
+                  bgcolor="#fffbf0"
+                  style="
+                    border: 1px solid #f0d890;
+                    border-radius: 3px;
+                    margin: 22px 0;
+                  "
+                >
+                  <tr>
+                    <td
+                      style="
+                        padding: 12px 18px;
+                        font-family:
+                          &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                        font-size: 13px;
+                        color: #6b5000;
+                        line-height: 1.5;
+                      "
+                    >
+                      Your last gift of
+                      <span
+                        style="
+                          background-color: #eef2ff;
+                          color: #2b4590;
+                          font-family: &quot;Courier New&quot;, monospace;
+                          font-size: 12px;
+                          padding: 2px 6px;
+                          border-radius: 3px;
+                          border: 1px solid #bfd0f0;
+                          white-space: nowrap;
+                          font-weight: bold;
+                        "
+                        >{{last_gift_amount}}</span
+                      >
+                      made a real difference. Would you consider matching or
+                      exceeding it today?
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- BULLETPROOF GIFT AMOUNT GRID (Tables instead of CSS Grid) -->
+                <div style="margin: 30px 0">
+                  <p
+                    style="
+                      font-family:
+                        &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                      font-size: 11px;
+                      letter-spacing: 0.14em;
+                      text-transform: uppercase;
+                      color: #888888;
+                      margin: 0 0 14px 0;
+                    "
+                  >
+                    Choose your gift amount ({{local_currency}})
+                  </p>
+
+                  <table
+                    border="0"
+                    cellspacing="0"
+                    cellpadding="0"
+                    role="presentation"
+                    width="100%"
+                  >
+                    <tr>
+                      <!-- BUTTON 1 (Popular Stacked Layout) -->
+                      <td width="23%" valign="top">
+                        <table
+                          border="0"
+                          cellspacing="0"
+                          cellpadding="0"
+                          role="presentation"
+                          width="100%"
+                        >
+                          <tr>
+                            <td
+                              align="center"
+                              bgcolor="#2b4590"
+                              style="
+                                border: 2px solid #2b4590;
+                                border-radius: 3px 3px 0 0;
+                                padding: 14px 8px;
+                              "
+                            >
+                              <a
+                                href="#"
+                                style="
+                                  font-family:
+                                    &quot;Helvetica Neue&quot;, Arial,
+                                    sans-serif;
+                                  font-size: 16px;
+                                  font-weight: bold;
+                                  color: #ffffff;
+                                  display: block;
+                                "
+                                >$3</a
+                              >
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              align="center"
+                              bgcolor="#e8a020"
+                              style="
+                                font-family:
+                                  &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                                font-size: 9px;
+                                font-weight: bold;
+                                color: #ffffff;
+                                text-transform: uppercase;
+                                letter-spacing: 0.05em;
+                                padding: 3px 0;
+                                border-radius: 0 0 3px 3px;
+                              "
+                            >
+                              Popular
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+
+                      <!-- Gap -->
+                      <td width="2%"></td>
+
+                      <!-- BUTTON 2 -->
+                      <td width="23%" valign="top">
+                        <table
+                          border="0"
+                          cellspacing="0"
+                          cellpadding="0"
+                          role="presentation"
+                          width="100%"
+                        >
+                          <tr>
+                            <td
+                              align="center"
+                              bgcolor="#254590"
+                              style="
+                                border: 2px solid #2b4590;
+                                border-radius: 3px;
+                                padding: 14px 8px;
+                              "
+                            >
+                              <a
+                                href="#"
+                                style="
+                                  font-family:
+                                    &quot;Helvetica Neue&quot;, Arial,
+                                    sans-serif;
+                                  font-size: 16px;
+                                  font-weight: bold;
+                                  color: #ffffff;
+                                  display: block;
+                                "
+                                >$5</a
+                              >
+                            </td>
+                          </tr>
+                          <!-- Empty placeholder cell to balance height with Button 1 -->
+                          <tr>
+                            <td height="17"></td>
+                          </tr>
+                        </table>
+                      </td>
+
+                      <!-- Gap -->
+                      <td width="2%"></td>
+
+                      <!-- BUTTON 3 -->
+                      <td width="23%" valign="top">
+                        <table
+                          border="0"
+                          cellspacing="0"
+                          cellpadding="0"
+                          role="presentation"
+                          width="100%"
+                        >
+                          <tr>
+                            <td
+                              align="center"
+                              bgcolor="#fefefe"
+                              style="
+                                border: 2px solid #2b4590;
+                                border-radius: 3px;
+                                padding: 14px 8px;
+                              "
+                            >
+                              <a
+                                href="#"
+                                style="
+                                  font-family:
+                                    &quot;Helvetica Neue&quot;, Arial,
+                                    sans-serif;
+                                  font-size: 16px;
+                                  font-weight: bold;
+                                  color: #2b4590;
+                                  display: block;
+                                "
+                                >$10</a
+                              >
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="17"></td>
+                          </tr>
+                        </table>
+                      </td>
+
+                      <!-- Gap -->
+                      <td width="2%"></td>
+
+                      <!-- BUTTON 4 -->
+                      <td width="23%" valign="top">
+                        <table
+                          border="0"
+                          cellspacing="0"
+                          cellpadding="0"
+                          role="presentation"
+                          width="100%"
+                        >
+                          <tr>
+                            <td
+                              align="center"
+                              bgcolor="#fefefe"
+                              style="
+                                border: 2px solid #2b4590;
+                                border-radius: 3px;
+                                padding: 14px 8px;
+                              "
+                            >
+                              <a
+                                href="#"
+                                style="
+                                  font-family:
+                                    &quot;Helvetica Neue&quot;, Arial,
+                                    sans-serif;
+                                  font-size: 16px;
+                                  font-weight: bold;
+                                  color: #2b4590;
+                                  display: block;
+                                "
+                                >$20</a
+                              >
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="17"></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+
+                <!-- Custom Amount Input Area -->
+                <table
+                  border="0"
+                  cellspacing="0"
+                  cellpadding="0"
+                  role="presentation"
+                  width="100%"
+                >
+                  <tr>
+                    <td align="center" style="padding-bottom: 15px">
+                      <input
+                        type="text"
+                        placeholder="Enter custom amount"
+                        style="
+                          border: 1px dashed #1a1a1a;
+                          padding: 10px;
+                          font-family:
+                            &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                          font-size: 14px;
+                          text-align: center;
+                          width: 200px;
+                        "
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      align="center"
+                      style="
+                        font-family:
+                          &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                        font-size: 13px;
+                        color: #2c2c2c;
+                        padding-bottom: 15px;
+                      "
+                    >
+                      Secure · Tax-deductible where applicable · One-time or
+                      monthly
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      align="left"
+                      style="
+                        font-family:
+                          &quot;Georgia&quot;, &quot;Times New Roman&quot;,
+                          serif;
+                        font-size: 14px;
+                        color: #555555;
+                        line-height: 1.6;
+                      "
+                    >
+                      If you've already donated this year, thank you from the
+                      bottom of our hearts. Please consider forwarding this
+                      message to someone who might give. Every single share
+                      matters.
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- SIGN OFF -->
+            <tr>
+              <td style="padding: 0 40px 36px 40px">
+                <table
+                  border="0"
+                  cellspacing="0"
+                  cellpadding="0"
+                  role="presentation"
+                  width="100%"
+                  style="border-top: 1px solid #e8e0d0; padding-top: 24px"
+                >
+                  <tr>
+                    <td>
+                      <h3
+                        style="
+                          font-family:
+                            &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                          font-size: 15px;
+                          color: #1a1a1a;
+                          font-weight: bold;
+                          margin: 0 0 2px 0;
+                        "
+                      >
+                        Jimmy Wales
+                      </h3>
+                      <p
+                        style="
+                          font-family:
+                            &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                          font-size: 12.5px;
+                          color: #777777;
+                          margin: 0 0 16px 0;
+                        "
+                      >
+                        Founder, Wikipedia &amp; the Wikimedia Foundation
+                      </p>
+
+                      <table
+                        border="0"
+                        cellspacing="0"
+                        cellpadding="0"
+                        role="presentation"
+                        width="100%"
+                        bgcolor="#f5f3ee"
+                      >
+                        <tr>
+                          <td
+                            style="
+                              padding: 14px 18px;
+                              border-radius: 2px;
+                              font-family:
+                                &quot;Georgia&quot;,
+                                &quot;Times New Roman&quot;, serif;
+                              font-size: 14px;
+                              color: #2c2c2c;
+                              line-height: 1.7;
+                            "
+                          >
+                            <strong style="color: #2b4590; font-weight: bold"
+                              >P.S.</strong
+                            >
+                            — Wikipedia will never put up a paywall. But we do
+                            need your support to stay free. Your gift of even $3
+                            keeps us independent.
+                            <a
+                              href="#"
+                              style="
+                                color: #2b4590;
+                                text-decoration: underline;
+                                font-weight: bold;
+                              "
+                              >Donate now →</a
+                            >
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- FOOTER -->
+            <tr>
+              <td bgcolor="#1a1a1a" style="padding: 24px 40px">
+                <p
+                  style="
+                    margin: 0 0 8px 0;
+                    font-family: &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                    font-size: 11px;
+                    color: #888888;
+                    line-height: 1.6;
+                  "
+                >
+                  &copy; 2026 Wikimedia Foundation, Inc. · 1 Montgomery St,
+                  Suite 1600, San Francisco, CA 94104
+                </p>
+                <p
+                  style="
+                    margin: 0 0 16px 0;
+                    font-family: &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                    font-size: 11px;
+                    color: #888888;
+                    line-height: 1.6;
+                  "
+                >
+                  This email was sent to {{donor_email}} because you previously
+                  donated or subscribed.
+                </p>
+
+                <table
+                  border="0"
+                  cellspacing="0"
+                  cellpadding="0"
+                  role="presentation"
+                  width="100%"
+                  style="border-top: 1px solid #333333; margin-bottom: 16px"
+                >
+                  <tr>
+                    <td height="1"></td>
+                  </tr>
+                </table>
+
+                <table
+                  border="0"
+                  cellspacing="0"
+                  cellpadding="0"
+                  role="presentation"
+                >
+                  <tr>
+                    <td
+                      style="
+                        font-family:
+                          &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                        font-size: 10.5px;
+                      "
+                    >
+                      <a
+                        href="#"
+                        style="color: #666666; text-decoration: underline"
+                        >Unsubscribe</a
+                      >
+                    </td>
+                    <td
+                      width="15"
+                      style="
+                        font-size: 10.5px;
+                        color: #666666;
+                        text-align: center;
+                      "
+                    >
+                      ·
+                    </td>
+                    <td
+                      style="
+                        font-family:
+                          &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                        font-size: 10.5px;
+                      "
+                    >
+                      <a
+                        href="#"
+                        style="color: #666666; text-decoration: underline"
+                        >Manage preferences</a
+                      >
+                    </td>
+                    <td
+                      width="15"
+                      style="
+                        font-size: 10.5px;
+                        color: #666666;
+                        text-align: center;
+                      "
+                    >
+                      ·
+                    </td>
+                    <td
+                      style="
+                        font-family:
+                          &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                        font-size: 10.5px;
+                      "
+                    >
+                      <a
+                        href="#"
+                        style="color: #666666; text-decoration: underline"
+                        >Privacy Policy</a
+                      >
+                    </td>
+                    <td
+                      width="15"
+                      style="
+                        font-size: 10.5px;
+                        color: #666666;
+                        text-align: center;
+                      "
+                    >
+                      ·
+                    </td>
+                    <td
+                      style="
+                        font-family:
+                          &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                        font-size: 10.5px;
+                      "
+                    >
+                      <a
+                        href="#"
+                        style="color: #666666; text-decoration: underline"
+                        >View in browser</a
+                      >
+                    </td>
+                  </tr>
+                </table>
+
+                <p
+                  style="
+                    margin: 16px 0 0 0;
+                    font-family: &quot;Helvetica Neue&quot;, Arial, sans-serif;
+                    font-size: 11px;
+                    color: #888888;
+                    line-height: 1.6;
+                  "
+                >
+                  Wikimedia Foundation is a 501(c)(3) nonprofit. EIN:
+                  20-0049703. Your gift may be tax-deductible.
+                </p>
+              </td>
+            </tr>
+          </table>
+          <!-- End Main Container -->
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

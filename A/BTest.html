@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AB Test</title>
+  </head>
+  <body
+    style="
+      padding: 0;
+      margin: 0;
+      background-color: #ffffff;
+      font-family: &quot;Helvetica Neue&quot;, Arial, sans-serif;
+    "
+  >
+    <table
+      border="0"
+      cellspacing="0"
+      cellpadding="0"
+      role="presentation"
+      width="100%"
+    >
+      <tr>
+        <td align="center">
+          <table
+            border="0"
+            cellspacing="0"
+            cellpadding="0"
+            role="presentation"
+            width="600"
+            style="width: 100%; max-width: 600px"
+          >
+            <!--HEADER-->
+            <tr>
+              <td style="padding: 32px 24px; margin: 0 auto" bgcolor="#0f1117">
+                <table
+                  border="0"
+                  cellspacing="0"
+                  cellpadding="0"
+                  role="presentation"
+                  width="100%"
+                >
+                  <!--TOP BAR-->
+                  <tr>
+                    <td
+                      style="
+                        color: #ffffff;
+                        text-align: center;
+                        margin-bottom: 40px;
+                      "
+                    >
+                      <p
+                        style="
+                          font-size: 28px;
+                          margin: 0 0 8px;
+                          font-weight: 700;
+                          letter-spacing: -0.02em;
+                        "
+                      >
+                        A/B Test Campaign- Wikipedia Fundraiser
+                      </p>
+                      <p style="color: #888; font-size: 14px; margin: 0">
+                        Two email variants testing banner placement & urgency
+                        signals on donation conversion
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!--BADGES-->
+            <tr>
+              <td bgcolor="#0f1117" align="center" style="padding: 4px 14px">
+                <table
+                  border="0"
+                  cellspacing="0"
+                  cellpadding="0"
+                  role="presentation"
+                  width="100%"
+                >
+                  <tr>
+                    <td>
+                      <p
+                        style="
+                          background-color: rgba(43, 69, 144, 0.2);
+                          padding: 4px 14px;
+                          color: #7a9fff;
+                          border: 1px solid rgba(43, 69, 144, 0.2);
+                          border-radius: 20px;
+                          font-size: 11px;
+                          letter-spacing: 0.08em;
+                          text-transform: uppercase;
+                          font-weight: 600;
+                        "
+                      >
+                        Variant A -Control
+                      </p>
+                    </td>
+                    <td width="2%"></td>
+                    <td>
+                      <p
+                        style="
+                          background-color: rgba(232, 160, 32, 0.15);
+                          padding: 4px 14px;
+                          color: #f0b840;
+                          border: 1px solid rgba(232, 160, 32, 0.15);
+                          border-radius: 20px;
+                          font-size: 11px;
+                          letter-spacing: 0.08em;
+                          text-transform: uppercase;
+                          font-weight: 600;
+                        "
+                      >
+                        Variant B -Banner + urgency
+                      </p>
+                    </td>
+                    <td width="2%"></td>
+                    <td>
+                      <p
+                        style="
+                          background-color: rgba(255, 255, 255, 0.05);
+                          padding: 4px 14px;
+                          color: #888;
+                          border: 1px solid rgba(255, 255, 255, 0.05);
+                          border-radius: 20px;
+                          font-size: 11px;
+                          letter-spacing: 0.08em;
+                          text-transform: uppercase;
+                          font-weight: 600;
+                        "
+                      >
+                        Hypothesis: Variant b +18-25% CTR
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!--VARIANT GRID-->
+            <tr>
+              <td bgcolor="#0f1117" style="padding: 6px 18px">
+                <table
+                  border="0"
+                  cellspacing="0"
+                  cellpadding="0"
+                  role="presentation"
+                  width="100%"
+                >
+                  <tr>
+                    <td>
+                      <table
+                        border="0"
+                        cellspacing="0"
+                        cellpadding="0"
+                        role="presentation"
+                        width="100%"
+                      >
+                        <tr>
+                          <td width="50%">
+                            <p
+                              style="
+                                padding: 6px 18px;
+                                border-radius: 4px;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 0.1em;
+                                text-transform: uppercase;
+                                background-color: #2b4590;
+                                color: #fff;
+                              "
+                            >
+                              VARIANT A
+                            </p>
+                          </td>
+                          <td></td>
+                          <td width="40%">
+                            <p
+                              style="
+                                margin-bottom: 16px;
+                                color: #666;
+                                font-size: 13px;
+                              "
+                            >
+                              Standard Layout-Hero Image + Bottom CTA
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p
+                              style="
+                                font-size: 12px;
+                                color: #888;
+                                line-height: 1.6;
+                                margin-bottom: 16px;
+                                border-left: 2px solid #333;
+                                padding-left: 12px;
+                              "
+                            >
+                              Control: Traditional layout with a top hero image
+                              and a single CTA button at the bottom of the
+                              content. Measures baseline conversion rate.
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <table
+                              border="0"
+                              cellspacing="0"
+                              cellpadding="0"
+                              role="presentation"
+                              width="100%"
+                            >
+                              <tr>
+                                <td bgcolor="#0f1117">
+                                  <table
+                                    border="0"
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                    role="presentation"
+                                    width="100%"
+                                  >
+                                    <tr>
+                                      <td>W</td>
+                                      <td>Wikipedia</td>
+                                      <td>2025 fundraiser</td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <table>
+                                    <tr>
+                                      <td><p>From our founder</p></td>
+                                      <td>
+                                        <p>
+                                          Help keep Wikipedia free for everyone
+                                        </p>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td>
+                      <table
+                        border="0"
+                        cellspacing="0"
+                        cellpadding="0"
+                        role="presentation"
+                        width="100%"
+                      >
+                        <tr>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td width="50%" valign="top">
+                            <p
+                              style="
+                                padding: 6px 18px;
+                                border-radius: 4px;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 0.1em;
+                                text-transform: uppercase;
+                                background-color: #e8a020;
+                                color: #1a1a1a;
+                              "
+                            >
+                              Variant B
+                            </p>
+                          </td>
+                          <td></td>
+                          <td width="40%">
+                            <p
+                              style="
+                                margin-bottom: 16px;
+                                color: #666;
+                                font-size: 13px;
+                              "
+                            >
+                              Optimized-Banner + Progress + Urgency
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p
+                              style="
+                                font-size: 12px;
+                                color: #888;
+                                line-height: 1.6;
+                                margin-bottom: 16px;
+                                border-left: 2px solid #333;
+                                padding-left: 12px;
+                              "
+                            >
+                              Treatment: Prominent CSS banner at the top with
+                              immediate CTA, a live progress bar, and a campaign
+                              deadline to increase urgency and front-load the
+                              conversion opportunity.
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <table
+                              border="0"
+                              cellspacing="0"
+                              cellpadding="0"
+                              role="presentation"
+                              width="100%"
+                            >
+                              <tr>
+                                <td></td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!--end of 600px container-->
+        </td>
+      </tr>
+    </table>
+    <!--end of master warapper-->
+  </body>
+</html>
